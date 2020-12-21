@@ -34,7 +34,7 @@ yabai -m config window_gap                   0
 
 # Rules
 yabai -m rule --add app="^Spotify$" manage=off
-#yabai -m rule --add app=Emacs manage=on
+yabai -m rule --add app=Emacs manage=on
 
 # Limelight start
 
