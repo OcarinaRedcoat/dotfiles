@@ -171,6 +171,11 @@ function help {
 		echo "		brave: open a file with Brave Browser"
 }
 
+function skhd_help {
+		echo "alt - e : toggle window split type"
+		echo "alt - t : float / unfloat window and center on screen"
+}
+
 set -o ignoreeof
 
 source /Users/ocarinaredcoat/.oh-my-zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
