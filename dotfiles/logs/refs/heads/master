@@ -1,0 +1,5 @@
+0000000000000000000000000000000000000000 ec9746d875f39cf345b406bb082c7d5c817b49d6 Caetano <98.ricardo.caetano@gmail.com> 1608575471 +0000	commit (initial): Added dotfiles
+ec9746d875f39cf345b406bb082c7d5c817b49d6 50da9d3a7ef761339328e94877ffbf270bc896f2 Caetano <98.ricardo.caetano@gmail.com> 1608583877 +0000	commit: Added Emacs Rule
+50da9d3a7ef761339328e94877ffbf270bc896f2 678b474fa6dd4a082c975443288a048f9737e6eb Caetano <98.ricardo.caetano@gmail.com> 1609285489 +0000	commit: Changed skhdrc configs and added some functions to zshrc
+678b474fa6dd4a082c975443288a048f9737e6eb 7345c2576fcfcb0cd22d82e42c51d3a8ace30eec Caetano <ricardo.caetano.aleixo@tecnico.ulisboa.pt> 1620064572 +0100	commit: vim plug, plugins, remaps n configs
+7345c2576fcfcb0cd22d82e42c51d3a8ace30eec 3a3c19927b96cac19eb9624903560f5d2f5ad461 Caetano <ricardo.caetano.aleixo@tecnico.ulisboa.pt> 1620064611 +0100	commit: vim plug, plugins, remaps n configs
