@@ -1,0 +1,116 @@
+2021-05-03 22:03:17,024 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2021-05-03 22:03:19,403 [Worker-0: Initialize Workspace] WARN  o.e.m.c.i.markers.MarkerUtils - Could not find OSGI service for org.eclipse.m2e.core.internal.markers.IEditorMarkerService
+2021-05-03 22:03:19,406 [Worker-0: Initialize Workspace] WARN  o.e.m.c.i.markers.MarkerUtils - Could not find OSGI service for org.eclipse.m2e.core.internal.markers.IEditorMarkerService
+2021-05-03 22:03:19,406 [Worker-0: Initialize Workspace] WARN  o.e.m.c.i.markers.MarkerUtils - Could not find OSGI service for org.eclipse.m2e.core.internal.markers.IEditorMarkerService
+2021-05-03 22:03:19,407 [Worker-0: Initialize Workspace] WARN  o.e.m.c.i.markers.MarkerUtils - Could not find OSGI service for org.eclipse.m2e.core.internal.markers.IEditorMarkerService
+2021-05-03 22:03:19,407 [Worker-0: Initialize Workspace] WARN  o.e.m.c.i.markers.MarkerUtils - Could not find OSGI service for org.eclipse.m2e.core.internal.markers.IEditorMarkerService
+2021-05-03 22:03:19,407 [Worker-0: Initialize Workspace] WARN  o.e.m.c.i.markers.MarkerUtils - Could not find OSGI service for org.eclipse.m2e.core.internal.markers.IEditorMarkerService
+2021-05-03 22:03:19,443 [Worker-0: Initialize Workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: pt.tecnico.sec.hdlt:HDLT:1.0-SNAPSHOT @ /Users/ocarinaredcoat/Documents/OneDrive - Universidade de Lisboa/IST/Mestrado/2o semestre/SEC/HDLT/pom.xml.
+2021-05-03 22:03:21,092 [Worker-0: Initialize Workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: pt.tecnico.sec.hdlt:Client:1.0-SNAPSHOT @ /Users/ocarinaredcoat/Documents/OneDrive - Universidade de Lisboa/IST/Mestrado/2o semestre/SEC/HDLT/Client/pom.xml.
+2021-05-03 22:03:21,227 [Worker-0: Initialize Workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Communication: pt.tecnico.sec.hdlt:Communication:1.0-SNAPSHOT with classifier  to /Communication/target/classes
+2021-05-03 22:03:21,235 [Worker-0: Initialize Workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Utils: pt.tecnico.sec.hdlt:Utils:1.0-SNAPSHOT with classifier  to /Utils/target/classes
+2021-05-03 22:03:21,236 [Worker-0: Initialize Workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Server: pt.tecnico.sec.hdlt:Server:1.0-SNAPSHOT with classifier  to /Server/target/classes
+2021-05-03 22:03:21,297 [Worker-0: Initialize Workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: pt.tecnico.sec.hdlt:Utils:1.0-SNAPSHOT @ /Users/ocarinaredcoat/Documents/OneDrive - Universidade de Lisboa/IST/Mestrado/2o semestre/SEC/HDLT/Utils/pom.xml.
+2021-05-03 22:03:21,554 [Worker-0: Initialize Workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: pt.tecnico.sec.hdlt:Communication:1.0-SNAPSHOT @ /Users/ocarinaredcoat/Documents/OneDrive - Universidade de Lisboa/IST/Mestrado/2o semestre/SEC/HDLT/Communication/pom.xml.
+2021-05-03 22:03:21,617 [Worker-0: Initialize Workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: pt.tecnico.sec.hdlt:Server:1.0-SNAPSHOT @ /Users/ocarinaredcoat/Documents/OneDrive - Universidade de Lisboa/IST/Mestrado/2o semestre/SEC/HDLT/Server/pom.xml.
+2021-05-03 22:03:21,625 [Worker-0: Initialize Workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Communication: pt.tecnico.sec.hdlt:Communication:1.0-SNAPSHOT with classifier  to /Communication/target/classes
+2021-05-03 22:03:21,630 [Worker-0: Initialize Workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Utils: pt.tecnico.sec.hdlt:Utils:1.0-SNAPSHOT with classifier  to /Utils/target/classes
+2021-05-03 22:03:21,694 [Worker-0: Initialize Workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: pt.tecnico.sec.hdlt:HAClient:1.0-SNAPSHOT @ /Users/ocarinaredcoat/Documents/OneDrive - Universidade de Lisboa/IST/Mestrado/2o semestre/SEC/HDLT/HAClient/pom.xml.
+2021-05-03 22:03:21,721 [Worker-0: Initialize Workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Communication: pt.tecnico.sec.hdlt:Communication:1.0-SNAPSHOT with classifier  to /Communication/target/classes
+2021-05-03 22:03:21,736 [Worker-0: Initialize Workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Utils: pt.tecnico.sec.hdlt:Utils:1.0-SNAPSHOT with classifier  to /Utils/target/classes
+2021-05-03 22:03:21,737 [Worker-0: Initialize Workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Server: pt.tecnico.sec.hdlt:Server:1.0-SNAPSHOT with classifier  to /Server/target/classes
+2021-05-03 22:03:21,738 [Worker-0: Initialize Workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Client: pt.tecnico.sec.hdlt:Client:1.0-SNAPSHOT with classifier  to /Client/target/classes
+2021-05-03 22:03:21,805 [Worker-0: Initialize Workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: pt.tecnico.sec.hdlt:Client:1.0-SNAPSHOT @ /Users/ocarinaredcoat/Documents/OneDrive - Universidade de Lisboa/IST/Mestrado/2o semestre/SEC/HDLT/Client/pom.xml.
+2021-05-03 22:03:21,818 [Worker-0: Initialize Workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Communication: pt.tecnico.sec.hdlt:Communication:1.0-SNAPSHOT with classifier  to /Communication/target/classes
+2021-05-03 22:03:21,823 [Worker-0: Initialize Workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Utils: pt.tecnico.sec.hdlt:Utils:1.0-SNAPSHOT with classifier  to /Utils/target/classes
+2021-05-03 22:03:21,823 [Worker-0: Initialize Workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Server: pt.tecnico.sec.hdlt:Server:1.0-SNAPSHOT with classifier  to /Server/target/classes
+2021-05-03 22:03:21,868 [Worker-0: Initialize Workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: pt.tecnico.sec.hdlt:HAClient:1.0-SNAPSHOT @ /Users/ocarinaredcoat/Documents/OneDrive - Universidade de Lisboa/IST/Mestrado/2o semestre/SEC/HDLT/HAClient/pom.xml.
+2021-05-03 22:03:21,874 [Worker-0: Initialize Workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Communication: pt.tecnico.sec.hdlt:Communication:1.0-SNAPSHOT with classifier  to /Communication/target/classes
+2021-05-03 22:03:21,883 [Worker-0: Initialize Workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Utils: pt.tecnico.sec.hdlt:Utils:1.0-SNAPSHOT with classifier  to /Utils/target/classes
+2021-05-03 22:03:21,884 [Worker-0: Initialize Workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Server: pt.tecnico.sec.hdlt:Server:1.0-SNAPSHOT with classifier  to /Server/target/classes
+2021-05-03 22:03:21,888 [Worker-0: Initialize Workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Client: pt.tecnico.sec.hdlt:Client:1.0-SNAPSHOT with classifier  to /Client/target/classes
+2021-05-03 22:03:22,658 [Worker-0: Initialize Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping compilation because build context has no changes.
+2021-05-03 22:03:22,671 [Worker-0: Initialize Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping compilation because build context has no changes.
+2021-05-03 22:03:23,111 [Worker-0: Initialize Workspace] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Communication/src/main/java
+2021-05-03 22:03:23,141 [Worker-0: Initialize Workspace] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Communication/target/generated-sources/protobuf/java
+2021-05-03 22:03:23,144 [Worker-0: Initialize Workspace] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Communication/target/generated-sources/protobuf/grpc-java
+2021-05-03 22:03:23,145 [Worker-0: Initialize Workspace] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Communication/src/main/proto
+2021-05-03 22:03:23,148 [Worker-0: Initialize Workspace] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Communication/src/main/proto
+2021-05-03 22:03:23,152 [Worker-0: Initialize Workspace] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Communication/src/test/java
+2021-05-03 22:03:23,566 [Worker-0: Initialize Workspace] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Utils/src/main/java
+2021-05-03 22:03:23,570 [Worker-0: Initialize Workspace] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Utils/src/test/java
+2021-05-03 22:03:23,702 [Worker-0: Initialize Workspace] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Server/src/main/java
+2021-05-03 22:03:23,706 [Worker-0: Initialize Workspace] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Server/src/test/java
+2021-05-03 22:03:23,706 [Worker-0: Initialize Workspace] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Server/src/test/resources
+2021-05-03 22:03:23,905 [Worker-0: Initialize Workspace] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Client/src/main/java
+2021-05-03 22:03:23,908 [Worker-0: Initialize Workspace] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Client/src/test/java
+2021-05-03 22:03:24,136 [Worker-0: Initialize Workspace] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /HAClient/src/main/java
+2021-05-03 22:03:24,139 [Worker-0: Initialize Workspace] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /HAClient/src/test/java
+2021-05-03 22:03:24,419 [Worker-0: Initialize Workspace] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 6 project(s) in 5 sec
+2021-05-03 22:03:25,344 [Worker-4: Clean workspace...] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Communication: pt.tecnico.sec.hdlt:Communication:1.0-SNAPSHOT with classifier  to /Communication/target/classes
+2021-05-03 22:03:25,349 [Worker-4: Clean workspace...] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Utils: pt.tecnico.sec.hdlt:Utils:1.0-SNAPSHOT with classifier  to /Utils/target/classes
+2021-05-03 22:03:25,351 [Worker-4: Clean workspace...] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Server: pt.tecnico.sec.hdlt:Server:1.0-SNAPSHOT with classifier  to /Server/target/classes
+2021-05-03 22:03:25,665 [Worker-4: Clean workspace...] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Communication: pt.tecnico.sec.hdlt:Communication:1.0-SNAPSHOT with classifier  to /Communication/target/classes
+2021-05-03 22:03:25,669 [Worker-4: Clean workspace...] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Utils: pt.tecnico.sec.hdlt:Utils:1.0-SNAPSHOT with classifier  to /Utils/target/classes
+2021-05-03 22:03:25,669 [Worker-4: Clean workspace...] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Server: pt.tecnico.sec.hdlt:Server:1.0-SNAPSHOT with classifier  to /Server/target/classes
+2021-05-03 22:03:25,670 [Worker-4: Clean workspace...] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Client: pt.tecnico.sec.hdlt:Client:1.0-SNAPSHOT with classifier  to /Client/target/classes
+2021-05-03 22:03:25,878 [Worker-4: Clean workspace...] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Communication: pt.tecnico.sec.hdlt:Communication:1.0-SNAPSHOT with classifier  to /Communication/target/classes
+2021-05-03 22:03:25,880 [Worker-4: Clean workspace...] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Utils: pt.tecnico.sec.hdlt:Utils:1.0-SNAPSHOT with classifier  to /Utils/target/classes
+2021-05-03 22:03:31,008 [resolver-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/protobuf/protoc/3.12.0/protoc-3.12.0-${os.detected.classifier}.exe
+2021-05-03 22:03:31,142 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-03 22:03:31,142 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ocarinaredcoat/Documents/OneDrive - Universidade de Lisboa/IST/Mestrado/2o semestre/SEC/HDLT/Communication/src/main/resources
+2021-05-03 22:03:31,145 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-03 22:03:31,145 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ocarinaredcoat/Documents/OneDrive - Universidade de Lisboa/IST/Mestrado/2o semestre/SEC/HDLT/Communication/src/test/resources
+2021-05-03 22:03:31,150 [Worker-0: Building] WARN  o.e.m.c.i.markers.MarkerUtils - Could not find OSGI service for org.eclipse.m2e.core.internal.markers.IMarkerLocationService
+2021-05-03 22:03:31,151 [Worker-0: Building] WARN  o.e.m.c.i.markers.MarkerUtils - Could not find OSGI service for org.eclipse.m2e.core.internal.markers.IMarkerLocationService
+2021-05-03 22:03:31,338 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-03 22:03:31,338 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ocarinaredcoat/Documents/OneDrive - Universidade de Lisboa/IST/Mestrado/2o semestre/SEC/HDLT/Utils/src/main/resources
+2021-05-03 22:03:31,341 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-03 22:03:31,342 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ocarinaredcoat/Documents/OneDrive - Universidade de Lisboa/IST/Mestrado/2o semestre/SEC/HDLT/Utils/src/test/resources
+2021-05-03 22:03:31,571 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-03 22:03:31,571 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ocarinaredcoat/Documents/OneDrive - Universidade de Lisboa/IST/Mestrado/2o semestre/SEC/HDLT/Server/src/main/resources
+2021-05-03 22:03:31,573 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-03 22:03:31,575 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 7 resources
+2021-05-03 22:03:31,851 [Worker-0: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Communication: pt.tecnico.sec.hdlt:Communication:1.0-SNAPSHOT with classifier  to /Communication/target/classes
+2021-05-03 22:03:31,854 [Worker-0: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Utils: pt.tecnico.sec.hdlt:Utils:1.0-SNAPSHOT with classifier  to /Utils/target/classes
+2021-05-03 22:03:31,854 [Worker-0: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Server: pt.tecnico.sec.hdlt:Server:1.0-SNAPSHOT with classifier  to /Server/target/classes
+2021-05-03 22:03:31,860 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-03 22:03:31,860 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ocarinaredcoat/Documents/OneDrive - Universidade de Lisboa/IST/Mestrado/2o semestre/SEC/HDLT/Client/src/main/resources
+2021-05-03 22:03:31,862 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-03 22:03:31,862 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ocarinaredcoat/Documents/OneDrive - Universidade de Lisboa/IST/Mestrado/2o semestre/SEC/HDLT/Client/src/test/resources
+2021-05-03 22:03:32,130 [Worker-0: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Communication: pt.tecnico.sec.hdlt:Communication:1.0-SNAPSHOT with classifier  to /Communication/target/classes
+2021-05-03 22:03:32,134 [Worker-0: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Utils: pt.tecnico.sec.hdlt:Utils:1.0-SNAPSHOT with classifier  to /Utils/target/classes
+2021-05-03 22:03:32,134 [Worker-0: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Server: pt.tecnico.sec.hdlt:Server:1.0-SNAPSHOT with classifier  to /Server/target/classes
+2021-05-03 22:03:32,134 [Worker-0: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Client: pt.tecnico.sec.hdlt:Client:1.0-SNAPSHOT with classifier  to /Client/target/classes
+2021-05-03 22:03:32,195 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-03 22:03:32,195 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ocarinaredcoat/Documents/OneDrive - Universidade de Lisboa/IST/Mestrado/2o semestre/SEC/HDLT/HAClient/src/main/resources
+2021-05-03 22:03:32,200 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-03 22:03:32,201 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ocarinaredcoat/Documents/OneDrive - Universidade de Lisboa/IST/Mestrado/2o semestre/SEC/HDLT/HAClient/src/test/resources
+2021-05-03 22:03:33,743 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping compilation because build context has no changes.
+2021-05-03 22:03:33,747 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping compilation because build context has no changes.
+2021-05-03 22:03:33,870 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-03 22:03:33,871 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ocarinaredcoat/Documents/OneDrive - Universidade de Lisboa/IST/Mestrado/2o semestre/SEC/HDLT/Communication/src/main/resources
+2021-05-03 22:03:33,873 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-05-03 22:03:33,878 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-05-03 22:03:33,881 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-03 22:03:33,881 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ocarinaredcoat/Documents/OneDrive - Universidade de Lisboa/IST/Mestrado/2o semestre/SEC/HDLT/Communication/src/test/resources
+2021-05-03 22:03:34,089 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping compilation because build context has no changes.
+2021-05-03 22:03:34,091 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping compilation because build context has no changes.
+2021-05-03 22:03:34,093 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-03 22:03:34,093 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ocarinaredcoat/Documents/OneDrive - Universidade de Lisboa/IST/Mestrado/2o semestre/SEC/HDLT/Communication/src/main/resources
+2021-05-03 22:03:34,094 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-05-03 22:03:34,095 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-05-03 22:03:34,096 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-03 22:03:34,097 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ocarinaredcoat/Documents/OneDrive - Universidade de Lisboa/IST/Mestrado/2o semestre/SEC/HDLT/Communication/src/test/resources
+2021-05-03 22:03:34,230 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-03 22:03:34,230 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ocarinaredcoat/Documents/OneDrive - Universidade de Lisboa/IST/Mestrado/2o semestre/SEC/HDLT/Server/src/main/resources
+2021-05-03 22:03:34,232 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-03 22:03:34,234 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-03 22:03:34,426 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-03 22:03:34,426 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ocarinaredcoat/Documents/OneDrive - Universidade de Lisboa/IST/Mestrado/2o semestre/SEC/HDLT/Client/src/main/resources
+2021-05-03 22:03:34,428 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-03 22:03:34,428 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ocarinaredcoat/Documents/OneDrive - Universidade de Lisboa/IST/Mestrado/2o semestre/SEC/HDLT/Client/src/test/resources
+2021-05-03 22:03:34,498 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-03 22:03:34,498 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ocarinaredcoat/Documents/OneDrive - Universidade de Lisboa/IST/Mestrado/2o semestre/SEC/HDLT/HAClient/src/main/resources
+2021-05-03 22:03:34,500 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-03 22:03:34,500 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ocarinaredcoat/Documents/OneDrive - Universidade de Lisboa/IST/Mestrado/2o semestre/SEC/HDLT/HAClient/src/test/resources

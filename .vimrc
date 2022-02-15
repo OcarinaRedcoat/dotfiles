@@ -1,16 +1,24 @@
 "plug vim
 call plug#begin('~/local/share/nvim/plugged')
+Plug 'itchyny/lightline.vim'
 Plug 'junegunn/fzf.vim'
-Plug 'preservim/nerdtree'
-Plug 'vim-airline/vim-airline'
-Plug 'vim-airline/vim-airline-themes'
+Plug 'scrooloose/nerdcommenter'
+Plug 'scrooloose/nerdtree'
+Plug 'tpope/vim-markdown'
 Plug 'tpope/vim-fugitive'
-Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'airblade/vim-gitgutter'
 Plug 'vitalk/vim-simple-todo'
 Plug 'frazrepo/vim-rainbow'
 Plug 'vifm/vifm.vim'
 Plug 'morhetz/gruvbox'
+Plug 'jiangmiao/auto-pairs'
+Plug 'itchyny/lightline.vim'
+Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all'  }
+Plug 'junegunn/fzf.vim'
+Plug 'vim-scripts/AutoComplPop' 
+Plug 'mhinz/vim-startify'
+Plug 'vim-latex/vim-latex'
+Plug 'tomlion/vim-solidity'
 
 call plug#end()
 
@@ -32,11 +40,13 @@ filetype plugin indent on    " required
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""s
 "" => General Settings
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+set nocompatible
 colorscheme gruvbox
+set background=dark    " Setting dark mode
 set path+=**					" Searches current directory recursively.
-set wildmenu					" Display all matches when tab complete.
 set nobackup                    " No auto backups
 set noswapfile                  " No
+set noshowmode
 set number relativenumber       " Display line numbers
 syntax enable
 
@@ -66,7 +76,28 @@ let g:NERDTreeWinSize=38
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 "" => Mouse Scrolling
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-set mouse=nicr
+"set mouse=nicr
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+"" => lightline
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+set laststatus=2
+let g:lightline = {
+      \ 'component_function': {
+      \   'filename': 'LightlineFilename',
+      \ },
+      \ }
+
+function! LightlineFilename()
+  return &filetype ==# 'vimfiler' ? vimfiler#get_status_string() :
+        \ &filetype ==# 'unite' ? unite#get_status_string() :
+        \ &filetype ==# 'vimshell' ? vimshell#get_status_string() :
+        \ expand('%:t') !=# '' ? expand('%:t') : '[No Name]'
+endfunction
+
+let g:unite_force_overwrite_statusline = 0
+let g:vimfiler_force_overwrite_statusline = 0
+let g:vimshell_force_overwrite_statusline = 0
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 "" => Mouse Scrolling
@@ -84,6 +115,13 @@ map <Leader>dv :DiffVifm<CR>
 map <Leader>tv :TabVifm<CR>
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+"" => fzf
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
+nmap // :BLines<CR>
+nmap ?? :Rg<CR>
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 "" => Splits and Tabbed Files
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 set splitbelow splitright
@@ -94,12 +132,6 @@ nnoremap <C-j> <C-w>j
 nnoremap <C-k> <C-w>k
 nnoremap <C-l> <C-w>l
 
-"" Make adjusing split sizes a bit more friendly
-noremap <silent> <C-Left> :vertical resize +3<CR>
-noremap <silent> <C-Right> :vertical resize -3<CR>
-noremap <silent> <C-Up> :resize +3<CR>
-noremap <silent> <C-Down> :resize -3<CR>
-
 "" Change 2 split windows from vert to horiz or horiz to vert
 map <Leader>th <C-w>t<C-w>H
 map <Leader>tk <C-w>t<C-w>K
@@ -108,3 +140,4 @@ map <Leader>tk <C-w>t<C-w>K
 "" => Other Stuff
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 au BufRead,BufNewFile *.brg set filetype=pburg
+command! Config execute ":e $MYVIMRC"

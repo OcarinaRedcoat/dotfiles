@@ -1,0 +1,1740 @@
+!SESSION 2021-05-03 22:03:14.247 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.6
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_GB
+Command-line arguments:  -data /Users/ocarinaredcoat/.config/coc/extensions/coc-java-data/jdt_ws_7cfb5e50d5a9d8278c1e994c1aeb04e8
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-03 22:03:16.616
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-03 22:03:16.835
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-03 22:03:16.882
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-03 22:03:16.892
+!MESSAGE Initializing Java Language Server 1.2.0.202104301456
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-03 22:03:16.946
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-03 22:03:16.947
+!MESSAGE Non-Static Commands: [java.edit.organizeImports, java.project.refreshDiagnostics, java.project.import, java.navigate.openTypeHierarchy, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.provideSemanticTokens, java.project.resolveStackTraceLocation, java.project.getAll, java.project.isTestFile, java.project.getClasspaths, java.navigate.resolveTypeHierarchy, java.project.getSemanticTokensLegend, java.edit.stringFormatting, java.project.getSettings, java.project.updateSourceAttachment, java.project.resolveSourceAttachment, java.project.addToSourcePath]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-03 22:03:16.994
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-03 22:03:17.023
+!MESSAGE Creating the Java project jdt.ls-java-project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-03 22:03:17.179
+!MESSAGE Default VM Install changed from  null to net.adoptopenjdk.11.jdk-/Library/Java/JavaVirtualMachines/adoptopenjdk-11.jdk/Contents/Home
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-03 22:03:17.191
+!MESSAGE defaultVMInstallChanged -> force update of jdt.ls-java-project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-03 22:03:17.219
+!MESSAGE Finished creating the Java project jdt.ls-java-project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-03 22:03:18.554
+!MESSAGE Importing Maven project(s)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-03 22:03:24.473
+!MESSAGE Workspace initialized in 7523ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-03 22:03:24.534
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-03 22:03:24.540
+!MESSAGE >> workspace/didChangeConfiguration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-03 22:03:24.558
+!MESSAGE >> New configuration: {java={enabled=true, jdt={ls={vmargs=-noverify -Xmx1G -XX:+UseG1GC -XX:+UseStringDeduplication}}, errors={incompleteClasspath={severity=warning}}, configuration={checkProjectSettingsExclusions=true, updateBuildConfiguration=interactive, runtimes=[]}, trace={server=off}, import={gradle={enabled=true, wrapper={enabled=true}, offline={enabled=false}}, maven={enabled=true}, exclusions=[**/node_modules/**, **/.metadata/**, **/archetype-resources/**, **/META-INF/maven/**]}, maven={updateSnapshots=false, downloadSources=false}, referencesCodeLens={enabled=false}, signatureHelp={enabled=false}, implementationsCodeLens={enabled=false}, format={enabled=true, comments={enabled=true}, onType={enabled=true, fixComment={enabled=true}}}, saveActions={organizeImports=false}, project={referencedLibraries=[lib/**/*.jar], resourceFilters=[node_modules, .git]}, autobuild={enabled=true}, maxConcurrentBuilds=1.0, completion={maxResults=0.0, enabled=true, overwrite=true, guessMethodArguments=false, favoriteStaticMembers=[org.junit.Assert.*, org.junit.Assume.*, org.junit.jupiter.api.Assertions.*, org.junit.jupiter.api.Assumptions.*, org.junit.jupiter.api.DynamicContainer.*, org.junit.jupiter.api.DynamicTest.*, org.mockito.Mockito.*, org.mockito.ArgumentMatchers.*, org.mockito.Answers.*], filteredTypes=[java.awt.*, com.sun.*], importOrder=[java, javax, com, org]}, progressReports={enabled=true}, foldingRange={enabled=true}, codeGeneration={hashCodeEquals={useJava7Objects=false, useInstanceof=false}, useBlocks=false, generateComments=false, toString={template=${object.className} [${member.name()}=${member.value}, ${otherMembers}], codeStyle=STRING_CONCATENATION, skipNullValues=false, listArrayContents=true, limitElements=0.0}}, selectionRange={enabled=true}, sources={organizeImports={starThreshold=99.0, staticStarThreshold=99.0}}, templates={fileHeader=[], typeComment=[]}, references={includeAccessors=true}}}
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-03 22:03:24.559
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-03 22:03:25.993
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-03 22:03:30.235
+!MESSAGE begin problem for /HAClient.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-03 22:03:30.247
+!MESSAGE 3 problems reported for /HAClient.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-03 22:03:30.254
+!MESSAGE Validated 1. Took 1234 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-03 22:03:32.238
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-03 22:03:32.253
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-03 22:03:32.258
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2021-05-03 22:03:32.290
+!MESSAGE Failed to publish diagnostics for file:///Users/ocarinaredcoat/Documents/OneDrive%20-%20Universidade%20de%20Lisboa/IST/Mestrado/2o%20semestre/SEC/HDLT/Communication/target/generated-sources/protobuf/java/pt/tecnico/sec/hdlt/communication/SignedUsersAtLocationQuery.java
+!STACK 1
+Java Model Exception: Core Exception [code 368] File not found: /Users/ocarinaredcoat/Documents/OneDrive - Universidade de Lisboa/IST/Mestrado/2o semestre/SEC/HDLT/Communication/target/generated-sources/protobuf/java/pt/tecnico/sec/hdlt/communication/SignedUsersAtLocationQuery.java.
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1214)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1186)
+	at org.eclipse.jdt.internal.core.CompilationUnit.openBuffer(CompilationUnit.java:1218)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:114)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:326)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:312)
+	at org.eclipse.jdt.internal.core.Openable.getBuffer(Openable.java:296)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:274)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:218)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer$2.run(JDTLanguageServer.java:305)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.eclipse.core.internal.resources.ResourceException: File not found: /Users/ocarinaredcoat/Documents/OneDrive - Universidade de Lisboa/IST/Mestrado/2o semestre/SEC/HDLT/Communication/target/generated-sources/protobuf/java/pt/tecnico/sec/hdlt/communication/SignedUsersAtLocationQuery.java.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:835)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:275)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1212)
+	... 12 more
+Caused by: java.lang.Exception: File not found: /Users/ocarinaredcoat/Documents/OneDrive - Universidade de Lisboa/IST/Mestrado/2o semestre/SEC/HDLT/Communication/target/generated-sources/protobuf/java/pt/tecnico/sec/hdlt/communication/SignedUsersAtLocationQuery.java.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	... 15 more
+Caused by: org.eclipse.core.internal.resources.ResourceException(/Communication/target/generated-sources/protobuf/java/pt/tecnico/sec/hdlt/communication/SignedUsersAtLocationQuery.java)[368]: java.lang.Exception: File not found: /Users/ocarinaredcoat/Documents/OneDrive - Universidade de Lisboa/IST/Mestrado/2o semestre/SEC/HDLT/Communication/target/generated-sources/protobuf/java/pt/tecnico/sec/hdlt/communication/SignedUsersAtLocationQuery.java.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:835)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:275)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1212)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1186)
+	at org.eclipse.jdt.internal.core.CompilationUnit.openBuffer(CompilationUnit.java:1218)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:114)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:326)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:312)
+	at org.eclipse.jdt.internal.core.Openable.getBuffer(Openable.java:296)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:274)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:218)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer$2.run(JDTLanguageServer.java:305)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2021-05-03 22:03:32.292
+!MESSAGE File not found: /Users/ocarinaredcoat/Documents/OneDrive - Universidade de Lisboa/IST/Mestrado/2o semestre/SEC/HDLT/Communication/target/generated-sources/protobuf/java/pt/tecnico/sec/hdlt/communication/SignedUsersAtLocationQuery.java.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/Communication/target/generated-sources/protobuf/java/pt/tecnico/sec/hdlt/communication/SignedUsersAtLocationQuery.java)[368]: java.lang.Exception: File not found: /Users/ocarinaredcoat/Documents/OneDrive - Universidade de Lisboa/IST/Mestrado/2o semestre/SEC/HDLT/Communication/target/generated-sources/protobuf/java/pt/tecnico/sec/hdlt/communication/SignedUsersAtLocationQuery.java.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:835)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:275)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1212)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1186)
+	at org.eclipse.jdt.internal.core.CompilationUnit.openBuffer(CompilationUnit.java:1218)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:114)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:326)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:312)
+	at org.eclipse.jdt.internal.core.Openable.getBuffer(Openable.java:296)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:274)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:218)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer$2.run(JDTLanguageServer.java:305)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 2 org.eclipse.core.resources 4 368 2021-05-03 22:03:32.292
+!MESSAGE File not found: /Users/ocarinaredcoat/Documents/OneDrive - Universidade de Lisboa/IST/Mestrado/2o semestre/SEC/HDLT/Communication/target/generated-sources/protobuf/java/pt/tecnico/sec/hdlt/communication/SignedUsersAtLocationQuery.java.
+!STACK 0
+java.lang.Exception: File not found: /Users/ocarinaredcoat/Documents/OneDrive - Universidade de Lisboa/IST/Mestrado/2o semestre/SEC/HDLT/Communication/target/generated-sources/protobuf/java/pt/tecnico/sec/hdlt/communication/SignedUsersAtLocationQuery.java.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:835)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:275)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1212)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1186)
+	at org.eclipse.jdt.internal.core.CompilationUnit.openBuffer(CompilationUnit.java:1218)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:114)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:326)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:312)
+	at org.eclipse.jdt.internal.core.Openable.getBuffer(Openable.java:296)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:274)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:218)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer$2.run(JDTLanguageServer.java:305)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2021-05-03 22:03:32.834
+!MESSAGE Failed to publish diagnostics for file:///Users/ocarinaredcoat/Documents/OneDrive%20-%20Universidade%20de%20Lisboa/IST/Mestrado/2o%20semestre/SEC/HDLT/Communication/target/generated-sources/protobuf/java/pt/tecnico/sec/hdlt/communication/SubmitLocationReportRequest.java
+!STACK 1
+Java Model Exception: Core Exception [code 368] File not found: /Users/ocarinaredcoat/Documents/OneDrive - Universidade de Lisboa/IST/Mestrado/2o semestre/SEC/HDLT/Communication/target/generated-sources/protobuf/java/pt/tecnico/sec/hdlt/communication/SubmitLocationReportRequest.java.
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1214)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1186)
+	at org.eclipse.jdt.internal.core.CompilationUnit.openBuffer(CompilationUnit.java:1218)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:114)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:326)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:312)
+	at org.eclipse.jdt.internal.core.Openable.getBuffer(Openable.java:296)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:274)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:218)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer$2.run(JDTLanguageServer.java:305)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.eclipse.core.internal.resources.ResourceException: File not found: /Users/ocarinaredcoat/Documents/OneDrive - Universidade de Lisboa/IST/Mestrado/2o semestre/SEC/HDLT/Communication/target/generated-sources/protobuf/java/pt/tecnico/sec/hdlt/communication/SubmitLocationReportRequest.java.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:835)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:275)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1212)
+	... 12 more
+Caused by: java.lang.Exception: File not found: /Users/ocarinaredcoat/Documents/OneDrive - Universidade de Lisboa/IST/Mestrado/2o semestre/SEC/HDLT/Communication/target/generated-sources/protobuf/java/pt/tecnico/sec/hdlt/communication/SubmitLocationReportRequest.java.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	... 15 more
+Caused by: org.eclipse.core.internal.resources.ResourceException(/Communication/target/generated-sources/protobuf/java/pt/tecnico/sec/hdlt/communication/SubmitLocationReportRequest.java)[368]: java.lang.Exception: File not found: /Users/ocarinaredcoat/Documents/OneDrive - Universidade de Lisboa/IST/Mestrado/2o semestre/SEC/HDLT/Communication/target/generated-sources/protobuf/java/pt/tecnico/sec/hdlt/communication/SubmitLocationReportRequest.java.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:835)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:275)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1212)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1186)
+	at org.eclipse.jdt.internal.core.CompilationUnit.openBuffer(CompilationUnit.java:1218)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:114)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:326)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:312)
+	at org.eclipse.jdt.internal.core.Openable.getBuffer(Openable.java:296)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:274)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:218)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer$2.run(JDTLanguageServer.java:305)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2021-05-03 22:03:32.835
+!MESSAGE File not found: /Users/ocarinaredcoat/Documents/OneDrive - Universidade de Lisboa/IST/Mestrado/2o semestre/SEC/HDLT/Communication/target/generated-sources/protobuf/java/pt/tecnico/sec/hdlt/communication/SubmitLocationReportRequest.java.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/Communication/target/generated-sources/protobuf/java/pt/tecnico/sec/hdlt/communication/SubmitLocationReportRequest.java)[368]: java.lang.Exception: File not found: /Users/ocarinaredcoat/Documents/OneDrive - Universidade de Lisboa/IST/Mestrado/2o semestre/SEC/HDLT/Communication/target/generated-sources/protobuf/java/pt/tecnico/sec/hdlt/communication/SubmitLocationReportRequest.java.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:835)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:275)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1212)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1186)
+	at org.eclipse.jdt.internal.core.CompilationUnit.openBuffer(CompilationUnit.java:1218)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:114)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:326)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:312)
+	at org.eclipse.jdt.internal.core.Openable.getBuffer(Openable.java:296)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:274)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:218)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer$2.run(JDTLanguageServer.java:305)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 2 org.eclipse.core.resources 4 368 2021-05-03 22:03:32.835
+!MESSAGE File not found: /Users/ocarinaredcoat/Documents/OneDrive - Universidade de Lisboa/IST/Mestrado/2o semestre/SEC/HDLT/Communication/target/generated-sources/protobuf/java/pt/tecnico/sec/hdlt/communication/SubmitLocationReportRequest.java.
+!STACK 0
+java.lang.Exception: File not found: /Users/ocarinaredcoat/Documents/OneDrive - Universidade de Lisboa/IST/Mestrado/2o semestre/SEC/HDLT/Communication/target/generated-sources/protobuf/java/pt/tecnico/sec/hdlt/communication/SubmitLocationReportRequest.java.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:835)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:275)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1212)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1186)
+	at org.eclipse.jdt.internal.core.CompilationUnit.openBuffer(CompilationUnit.java:1218)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:114)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:326)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:312)
+	at org.eclipse.jdt.internal.core.Openable.getBuffer(Openable.java:296)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:274)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:218)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer$2.run(JDTLanguageServer.java:305)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2021-05-03 22:03:32.839
+!MESSAGE Failed to publish diagnostics for file:///Users/ocarinaredcoat/Documents/OneDrive%20-%20Universidade%20de%20Lisboa/IST/Mestrado/2o%20semestre/SEC/HDLT/Communication/target/generated-sources/protobuf/java/pt/tecnico/sec/hdlt/communication/LocationQuery.java
+!STACK 1
+Java Model Exception: Core Exception [code 368] File not found: /Users/ocarinaredcoat/Documents/OneDrive - Universidade de Lisboa/IST/Mestrado/2o semestre/SEC/HDLT/Communication/target/generated-sources/protobuf/java/pt/tecnico/sec/hdlt/communication/LocationQuery.java.
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1214)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1186)
+	at org.eclipse.jdt.internal.core.CompilationUnit.openBuffer(CompilationUnit.java:1218)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:114)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:326)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:312)
+	at org.eclipse.jdt.internal.core.Openable.getBuffer(Openable.java:296)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:274)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:218)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer$2.run(JDTLanguageServer.java:305)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.eclipse.core.internal.resources.ResourceException: File not found: /Users/ocarinaredcoat/Documents/OneDrive - Universidade de Lisboa/IST/Mestrado/2o semestre/SEC/HDLT/Communication/target/generated-sources/protobuf/java/pt/tecnico/sec/hdlt/communication/LocationQuery.java.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:835)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:275)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1212)
+	... 12 more
+Caused by: java.lang.Exception: File not found: /Users/ocarinaredcoat/Documents/OneDrive - Universidade de Lisboa/IST/Mestrado/2o semestre/SEC/HDLT/Communication/target/generated-sources/protobuf/java/pt/tecnico/sec/hdlt/communication/LocationQuery.java.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	... 15 more
+Caused by: org.eclipse.core.internal.resources.ResourceException(/Communication/target/generated-sources/protobuf/java/pt/tecnico/sec/hdlt/communication/LocationQuery.java)[368]: java.lang.Exception: File not found: /Users/ocarinaredcoat/Documents/OneDrive - Universidade de Lisboa/IST/Mestrado/2o semestre/SEC/HDLT/Communication/target/generated-sources/protobuf/java/pt/tecnico/sec/hdlt/communication/LocationQuery.java.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:835)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:275)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1212)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1186)
+	at org.eclipse.jdt.internal.core.CompilationUnit.openBuffer(CompilationUnit.java:1218)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:114)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:326)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:312)
+	at org.eclipse.jdt.internal.core.Openable.getBuffer(Openable.java:296)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:274)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:218)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer$2.run(JDTLanguageServer.java:305)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2021-05-03 22:03:32.839
+!MESSAGE File not found: /Users/ocarinaredcoat/Documents/OneDrive - Universidade de Lisboa/IST/Mestrado/2o semestre/SEC/HDLT/Communication/target/generated-sources/protobuf/java/pt/tecnico/sec/hdlt/communication/LocationQuery.java.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/Communication/target/generated-sources/protobuf/java/pt/tecnico/sec/hdlt/communication/LocationQuery.java)[368]: java.lang.Exception: File not found: /Users/ocarinaredcoat/Documents/OneDrive - Universidade de Lisboa/IST/Mestrado/2o semestre/SEC/HDLT/Communication/target/generated-sources/protobuf/java/pt/tecnico/sec/hdlt/communication/LocationQuery.java.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:835)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:275)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1212)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1186)
+	at org.eclipse.jdt.internal.core.CompilationUnit.openBuffer(CompilationUnit.java:1218)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:114)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:326)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:312)
+	at org.eclipse.jdt.internal.core.Openable.getBuffer(Openable.java:296)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:274)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:218)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer$2.run(JDTLanguageServer.java:305)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 2 org.eclipse.core.resources 4 368 2021-05-03 22:03:32.839
+!MESSAGE File not found: /Users/ocarinaredcoat/Documents/OneDrive - Universidade de Lisboa/IST/Mestrado/2o semestre/SEC/HDLT/Communication/target/generated-sources/protobuf/java/pt/tecnico/sec/hdlt/communication/LocationQuery.java.
+!STACK 0
+java.lang.Exception: File not found: /Users/ocarinaredcoat/Documents/OneDrive - Universidade de Lisboa/IST/Mestrado/2o semestre/SEC/HDLT/Communication/target/generated-sources/protobuf/java/pt/tecnico/sec/hdlt/communication/LocationQuery.java.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:835)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:275)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1212)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1186)
+	at org.eclipse.jdt.internal.core.CompilationUnit.openBuffer(CompilationUnit.java:1218)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:114)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:326)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:312)
+	at org.eclipse.jdt.internal.core.Openable.getBuffer(Openable.java:296)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:274)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:218)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer$2.run(JDTLanguageServer.java:305)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2021-05-03 22:03:32.849
+!MESSAGE Failed to publish diagnostics for file:///Users/ocarinaredcoat/Documents/OneDrive%20-%20Universidade%20de%20Lisboa/IST/Mestrado/2o%20semestre/SEC/HDLT/Communication/target/generated-sources/protobuf/java/pt/tecnico/sec/hdlt/communication/LocationInformation.java
+!STACK 1
+Java Model Exception: Core Exception [code 368] File not found: /Users/ocarinaredcoat/Documents/OneDrive - Universidade de Lisboa/IST/Mestrado/2o semestre/SEC/HDLT/Communication/target/generated-sources/protobuf/java/pt/tecnico/sec/hdlt/communication/LocationInformation.java.
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1214)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1186)
+	at org.eclipse.jdt.internal.core.CompilationUnit.openBuffer(CompilationUnit.java:1218)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:114)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:326)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:312)
+	at org.eclipse.jdt.internal.core.Openable.getBuffer(Openable.java:296)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:274)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:218)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer$2.run(JDTLanguageServer.java:305)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.eclipse.core.internal.resources.ResourceException: File not found: /Users/ocarinaredcoat/Documents/OneDrive - Universidade de Lisboa/IST/Mestrado/2o semestre/SEC/HDLT/Communication/target/generated-sources/protobuf/java/pt/tecnico/sec/hdlt/communication/LocationInformation.java.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:835)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:275)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1212)
+	... 12 more
+Caused by: java.lang.Exception: File not found: /Users/ocarinaredcoat/Documents/OneDrive - Universidade de Lisboa/IST/Mestrado/2o semestre/SEC/HDLT/Communication/target/generated-sources/protobuf/java/pt/tecnico/sec/hdlt/communication/LocationInformation.java.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	... 15 more
+Caused by: org.eclipse.core.internal.resources.ResourceException(/Communication/target/generated-sources/protobuf/java/pt/tecnico/sec/hdlt/communication/LocationInformation.java)[368]: java.lang.Exception: File not found: /Users/ocarinaredcoat/Documents/OneDrive - Universidade de Lisboa/IST/Mestrado/2o semestre/SEC/HDLT/Communication/target/generated-sources/protobuf/java/pt/tecnico/sec/hdlt/communication/LocationInformation.java.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:835)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:275)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1212)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1186)
+	at org.eclipse.jdt.internal.core.CompilationUnit.openBuffer(CompilationUnit.java:1218)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:114)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:326)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:312)
+	at org.eclipse.jdt.internal.core.Openable.getBuffer(Openable.java:296)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:274)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:218)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer$2.run(JDTLanguageServer.java:305)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2021-05-03 22:03:32.850
+!MESSAGE File not found: /Users/ocarinaredcoat/Documents/OneDrive - Universidade de Lisboa/IST/Mestrado/2o semestre/SEC/HDLT/Communication/target/generated-sources/protobuf/java/pt/tecnico/sec/hdlt/communication/LocationInformation.java.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/Communication/target/generated-sources/protobuf/java/pt/tecnico/sec/hdlt/communication/LocationInformation.java)[368]: java.lang.Exception: File not found: /Users/ocarinaredcoat/Documents/OneDrive - Universidade de Lisboa/IST/Mestrado/2o semestre/SEC/HDLT/Communication/target/generated-sources/protobuf/java/pt/tecnico/sec/hdlt/communication/LocationInformation.java.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:835)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:275)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1212)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1186)
+	at org.eclipse.jdt.internal.core.CompilationUnit.openBuffer(CompilationUnit.java:1218)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:114)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:326)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:312)
+	at org.eclipse.jdt.internal.core.Openable.getBuffer(Openable.java:296)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:274)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:218)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer$2.run(JDTLanguageServer.java:305)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 2 org.eclipse.core.resources 4 368 2021-05-03 22:03:32.850
+!MESSAGE File not found: /Users/ocarinaredcoat/Documents/OneDrive - Universidade de Lisboa/IST/Mestrado/2o semestre/SEC/HDLT/Communication/target/generated-sources/protobuf/java/pt/tecnico/sec/hdlt/communication/LocationInformation.java.
+!STACK 0
+java.lang.Exception: File not found: /Users/ocarinaredcoat/Documents/OneDrive - Universidade de Lisboa/IST/Mestrado/2o semestre/SEC/HDLT/Communication/target/generated-sources/protobuf/java/pt/tecnico/sec/hdlt/communication/LocationInformation.java.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:835)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:275)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1212)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1186)
+	at org.eclipse.jdt.internal.core.CompilationUnit.openBuffer(CompilationUnit.java:1218)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:114)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:326)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:312)
+	at org.eclipse.jdt.internal.core.Openable.getBuffer(Openable.java:296)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:274)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:218)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer$2.run(JDTLanguageServer.java:305)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2021-05-03 22:03:32.861
+!MESSAGE Failed to publish diagnostics for file:///Users/ocarinaredcoat/Documents/OneDrive%20-%20Universidade%20de%20Lisboa/IST/Mestrado/2o%20semestre/SEC/HDLT/Communication/target/generated-sources/protobuf/java/pt/tecnico/sec/hdlt/communication/SignedLocationReportList.java
+!STACK 1
+Java Model Exception: Core Exception [code 368] File not found: /Users/ocarinaredcoat/Documents/OneDrive - Universidade de Lisboa/IST/Mestrado/2o semestre/SEC/HDLT/Communication/target/generated-sources/protobuf/java/pt/tecnico/sec/hdlt/communication/SignedLocationReportList.java.
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1214)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1186)
+	at org.eclipse.jdt.internal.core.CompilationUnit.openBuffer(CompilationUnit.java:1218)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:114)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:326)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:312)
+	at org.eclipse.jdt.internal.core.Openable.getBuffer(Openable.java:296)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:274)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:218)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer$2.run(JDTLanguageServer.java:305)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.eclipse.core.internal.resources.ResourceException: File not found: /Users/ocarinaredcoat/Documents/OneDrive - Universidade de Lisboa/IST/Mestrado/2o semestre/SEC/HDLT/Communication/target/generated-sources/protobuf/java/pt/tecnico/sec/hdlt/communication/SignedLocationReportList.java.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:835)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:275)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1212)
+	... 12 more
+Caused by: java.lang.Exception: File not found: /Users/ocarinaredcoat/Documents/OneDrive - Universidade de Lisboa/IST/Mestrado/2o semestre/SEC/HDLT/Communication/target/generated-sources/protobuf/java/pt/tecnico/sec/hdlt/communication/SignedLocationReportList.java.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	... 15 more
+Caused by: org.eclipse.core.internal.resources.ResourceException(/Communication/target/generated-sources/protobuf/java/pt/tecnico/sec/hdlt/communication/SignedLocationReportList.java)[368]: java.lang.Exception: File not found: /Users/ocarinaredcoat/Documents/OneDrive - Universidade de Lisboa/IST/Mestrado/2o semestre/SEC/HDLT/Communication/target/generated-sources/protobuf/java/pt/tecnico/sec/hdlt/communication/SignedLocationReportList.java.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:835)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:275)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1212)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1186)
+	at org.eclipse.jdt.internal.core.CompilationUnit.openBuffer(CompilationUnit.java:1218)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:114)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:326)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:312)
+	at org.eclipse.jdt.internal.core.Openable.getBuffer(Openable.java:296)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:274)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:218)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer$2.run(JDTLanguageServer.java:305)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2021-05-03 22:03:32.861
+!MESSAGE File not found: /Users/ocarinaredcoat/Documents/OneDrive - Universidade de Lisboa/IST/Mestrado/2o semestre/SEC/HDLT/Communication/target/generated-sources/protobuf/java/pt/tecnico/sec/hdlt/communication/SignedLocationReportList.java.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/Communication/target/generated-sources/protobuf/java/pt/tecnico/sec/hdlt/communication/SignedLocationReportList.java)[368]: java.lang.Exception: File not found: /Users/ocarinaredcoat/Documents/OneDrive - Universidade de Lisboa/IST/Mestrado/2o semestre/SEC/HDLT/Communication/target/generated-sources/protobuf/java/pt/tecnico/sec/hdlt/communication/SignedLocationReportList.java.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:835)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:275)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1212)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1186)
+	at org.eclipse.jdt.internal.core.CompilationUnit.openBuffer(CompilationUnit.java:1218)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:114)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:326)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:312)
+	at org.eclipse.jdt.internal.core.Openable.getBuffer(Openable.java:296)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:274)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:218)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer$2.run(JDTLanguageServer.java:305)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 2 org.eclipse.core.resources 4 368 2021-05-03 22:03:32.861
+!MESSAGE File not found: /Users/ocarinaredcoat/Documents/OneDrive - Universidade de Lisboa/IST/Mestrado/2o semestre/SEC/HDLT/Communication/target/generated-sources/protobuf/java/pt/tecnico/sec/hdlt/communication/SignedLocationReportList.java.
+!STACK 0
+java.lang.Exception: File not found: /Users/ocarinaredcoat/Documents/OneDrive - Universidade de Lisboa/IST/Mestrado/2o semestre/SEC/HDLT/Communication/target/generated-sources/protobuf/java/pt/tecnico/sec/hdlt/communication/SignedLocationReportList.java.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:835)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:275)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1212)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1186)
+	at org.eclipse.jdt.internal.core.CompilationUnit.openBuffer(CompilationUnit.java:1218)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:114)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:326)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:312)
+	at org.eclipse.jdt.internal.core.Openable.getBuffer(Openable.java:296)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:274)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:218)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer$2.run(JDTLanguageServer.java:305)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2021-05-03 22:03:32.871
+!MESSAGE Failed to publish diagnostics for file:///Users/ocarinaredcoat/Documents/OneDrive%20-%20Universidade%20de%20Lisboa/IST/Mestrado/2o%20semestre/SEC/HDLT/Communication/target/generated-sources/protobuf/java/pt/tecnico/sec/hdlt/communication/UsersAtLocationQuery.java
+!STACK 1
+Java Model Exception: Core Exception [code 368] File not found: /Users/ocarinaredcoat/Documents/OneDrive - Universidade de Lisboa/IST/Mestrado/2o semestre/SEC/HDLT/Communication/target/generated-sources/protobuf/java/pt/tecnico/sec/hdlt/communication/UsersAtLocationQuery.java.
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1214)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1186)
+	at org.eclipse.jdt.internal.core.CompilationUnit.openBuffer(CompilationUnit.java:1218)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:114)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:326)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:312)
+	at org.eclipse.jdt.internal.core.Openable.getBuffer(Openable.java:296)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:274)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:218)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer$2.run(JDTLanguageServer.java:305)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.eclipse.core.internal.resources.ResourceException: File not found: /Users/ocarinaredcoat/Documents/OneDrive - Universidade de Lisboa/IST/Mestrado/2o semestre/SEC/HDLT/Communication/target/generated-sources/protobuf/java/pt/tecnico/sec/hdlt/communication/UsersAtLocationQuery.java.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:835)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:275)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1212)
+	... 12 more
+Caused by: java.lang.Exception: File not found: /Users/ocarinaredcoat/Documents/OneDrive - Universidade de Lisboa/IST/Mestrado/2o semestre/SEC/HDLT/Communication/target/generated-sources/protobuf/java/pt/tecnico/sec/hdlt/communication/UsersAtLocationQuery.java.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	... 15 more
+Caused by: org.eclipse.core.internal.resources.ResourceException(/Communication/target/generated-sources/protobuf/java/pt/tecnico/sec/hdlt/communication/UsersAtLocationQuery.java)[368]: java.lang.Exception: File not found: /Users/ocarinaredcoat/Documents/OneDrive - Universidade de Lisboa/IST/Mestrado/2o semestre/SEC/HDLT/Communication/target/generated-sources/protobuf/java/pt/tecnico/sec/hdlt/communication/UsersAtLocationQuery.java.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:835)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:275)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1212)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1186)
+	at org.eclipse.jdt.internal.core.CompilationUnit.openBuffer(CompilationUnit.java:1218)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:114)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:326)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:312)
+	at org.eclipse.jdt.internal.core.Openable.getBuffer(Openable.java:296)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:274)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:218)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer$2.run(JDTLanguageServer.java:305)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2021-05-03 22:03:32.871
+!MESSAGE File not found: /Users/ocarinaredcoat/Documents/OneDrive - Universidade de Lisboa/IST/Mestrado/2o semestre/SEC/HDLT/Communication/target/generated-sources/protobuf/java/pt/tecnico/sec/hdlt/communication/UsersAtLocationQuery.java.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/Communication/target/generated-sources/protobuf/java/pt/tecnico/sec/hdlt/communication/UsersAtLocationQuery.java)[368]: java.lang.Exception: File not found: /Users/ocarinaredcoat/Documents/OneDrive - Universidade de Lisboa/IST/Mestrado/2o semestre/SEC/HDLT/Communication/target/generated-sources/protobuf/java/pt/tecnico/sec/hdlt/communication/UsersAtLocationQuery.java.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:835)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:275)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1212)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1186)
+	at org.eclipse.jdt.internal.core.CompilationUnit.openBuffer(CompilationUnit.java:1218)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:114)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:326)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:312)
+	at org.eclipse.jdt.internal.core.Openable.getBuffer(Openable.java:296)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:274)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:218)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer$2.run(JDTLanguageServer.java:305)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 2 org.eclipse.core.resources 4 368 2021-05-03 22:03:32.871
+!MESSAGE File not found: /Users/ocarinaredcoat/Documents/OneDrive - Universidade de Lisboa/IST/Mestrado/2o semestre/SEC/HDLT/Communication/target/generated-sources/protobuf/java/pt/tecnico/sec/hdlt/communication/UsersAtLocationQuery.java.
+!STACK 0
+java.lang.Exception: File not found: /Users/ocarinaredcoat/Documents/OneDrive - Universidade de Lisboa/IST/Mestrado/2o semestre/SEC/HDLT/Communication/target/generated-sources/protobuf/java/pt/tecnico/sec/hdlt/communication/UsersAtLocationQuery.java.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:835)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:275)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1212)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1186)
+	at org.eclipse.jdt.internal.core.CompilationUnit.openBuffer(CompilationUnit.java:1218)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:114)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:326)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:312)
+	at org.eclipse.jdt.internal.core.Openable.getBuffer(Openable.java:296)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:274)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:218)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer$2.run(JDTLanguageServer.java:305)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2021-05-03 22:03:32.890
+!MESSAGE Failed to publish diagnostics for file:///Users/ocarinaredcoat/Documents/OneDrive%20-%20Universidade%20de%20Lisboa/IST/Mestrado/2o%20semestre/SEC/HDLT/Communication/target/generated-sources/protobuf/java/pt/tecnico/sec/hdlt/communication/SignedLocationQuery.java
+!STACK 1
+Java Model Exception: Core Exception [code 368] File not found: /Users/ocarinaredcoat/Documents/OneDrive - Universidade de Lisboa/IST/Mestrado/2o semestre/SEC/HDLT/Communication/target/generated-sources/protobuf/java/pt/tecnico/sec/hdlt/communication/SignedLocationQuery.java.
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1214)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1186)
+	at org.eclipse.jdt.internal.core.CompilationUnit.openBuffer(CompilationUnit.java:1218)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:114)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:326)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:312)
+	at org.eclipse.jdt.internal.core.Openable.getBuffer(Openable.java:296)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:274)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:218)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer$2.run(JDTLanguageServer.java:305)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.eclipse.core.internal.resources.ResourceException: File not found: /Users/ocarinaredcoat/Documents/OneDrive - Universidade de Lisboa/IST/Mestrado/2o semestre/SEC/HDLT/Communication/target/generated-sources/protobuf/java/pt/tecnico/sec/hdlt/communication/SignedLocationQuery.java.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:835)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:275)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1212)
+	... 12 more
+Caused by: java.lang.Exception: File not found: /Users/ocarinaredcoat/Documents/OneDrive - Universidade de Lisboa/IST/Mestrado/2o semestre/SEC/HDLT/Communication/target/generated-sources/protobuf/java/pt/tecnico/sec/hdlt/communication/SignedLocationQuery.java.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	... 15 more
+Caused by: org.eclipse.core.internal.resources.ResourceException(/Communication/target/generated-sources/protobuf/java/pt/tecnico/sec/hdlt/communication/SignedLocationQuery.java)[368]: java.lang.Exception: File not found: /Users/ocarinaredcoat/Documents/OneDrive - Universidade de Lisboa/IST/Mestrado/2o semestre/SEC/HDLT/Communication/target/generated-sources/protobuf/java/pt/tecnico/sec/hdlt/communication/SignedLocationQuery.java.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:835)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:275)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1212)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1186)
+	at org.eclipse.jdt.internal.core.CompilationUnit.openBuffer(CompilationUnit.java:1218)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:114)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:326)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:312)
+	at org.eclipse.jdt.internal.core.Openable.getBuffer(Openable.java:296)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:274)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:218)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer$2.run(JDTLanguageServer.java:305)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2021-05-03 22:03:32.890
+!MESSAGE File not found: /Users/ocarinaredcoat/Documents/OneDrive - Universidade de Lisboa/IST/Mestrado/2o semestre/SEC/HDLT/Communication/target/generated-sources/protobuf/java/pt/tecnico/sec/hdlt/communication/SignedLocationQuery.java.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/Communication/target/generated-sources/protobuf/java/pt/tecnico/sec/hdlt/communication/SignedLocationQuery.java)[368]: java.lang.Exception: File not found: /Users/ocarinaredcoat/Documents/OneDrive - Universidade de Lisboa/IST/Mestrado/2o semestre/SEC/HDLT/Communication/target/generated-sources/protobuf/java/pt/tecnico/sec/hdlt/communication/SignedLocationQuery.java.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:835)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:275)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1212)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1186)
+	at org.eclipse.jdt.internal.core.CompilationUnit.openBuffer(CompilationUnit.java:1218)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:114)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:326)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:312)
+	at org.eclipse.jdt.internal.core.Openable.getBuffer(Openable.java:296)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:274)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:218)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer$2.run(JDTLanguageServer.java:305)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 2 org.eclipse.core.resources 4 368 2021-05-03 22:03:32.890
+!MESSAGE File not found: /Users/ocarinaredcoat/Documents/OneDrive - Universidade de Lisboa/IST/Mestrado/2o semestre/SEC/HDLT/Communication/target/generated-sources/protobuf/java/pt/tecnico/sec/hdlt/communication/SignedLocationQuery.java.
+!STACK 0
+java.lang.Exception: File not found: /Users/ocarinaredcoat/Documents/OneDrive - Universidade de Lisboa/IST/Mestrado/2o semestre/SEC/HDLT/Communication/target/generated-sources/protobuf/java/pt/tecnico/sec/hdlt/communication/SignedLocationQuery.java.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:835)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:275)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1212)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1186)
+	at org.eclipse.jdt.internal.core.CompilationUnit.openBuffer(CompilationUnit.java:1218)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:114)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:326)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:312)
+	at org.eclipse.jdt.internal.core.Openable.getBuffer(Openable.java:296)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:274)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:218)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer$2.run(JDTLanguageServer.java:305)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2021-05-03 22:03:32.895
+!MESSAGE Failed to publish diagnostics for file:///Users/ocarinaredcoat/Documents/OneDrive%20-%20Universidade%20de%20Lisboa/IST/Mestrado/2o%20semestre/SEC/HDLT/Communication/target/generated-sources/protobuf/java/pt/tecnico/sec/hdlt/communication/ObtainUsersAtLocationResponse.java
+!STACK 1
+Java Model Exception: Core Exception [code 368] File not found: /Users/ocarinaredcoat/Documents/OneDrive - Universidade de Lisboa/IST/Mestrado/2o semestre/SEC/HDLT/Communication/target/generated-sources/protobuf/java/pt/tecnico/sec/hdlt/communication/ObtainUsersAtLocationResponse.java.
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1214)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1186)
+	at org.eclipse.jdt.internal.core.CompilationUnit.openBuffer(CompilationUnit.java:1218)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:114)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:326)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:312)
+	at org.eclipse.jdt.internal.core.Openable.getBuffer(Openable.java:296)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:274)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:218)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer$2.run(JDTLanguageServer.java:305)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.eclipse.core.internal.resources.ResourceException: File not found: /Users/ocarinaredcoat/Documents/OneDrive - Universidade de Lisboa/IST/Mestrado/2o semestre/SEC/HDLT/Communication/target/generated-sources/protobuf/java/pt/tecnico/sec/hdlt/communication/ObtainUsersAtLocationResponse.java.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:835)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:275)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1212)
+	... 12 more
+Caused by: java.lang.Exception: File not found: /Users/ocarinaredcoat/Documents/OneDrive - Universidade de Lisboa/IST/Mestrado/2o semestre/SEC/HDLT/Communication/target/generated-sources/protobuf/java/pt/tecnico/sec/hdlt/communication/ObtainUsersAtLocationResponse.java.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	... 15 more
+Caused by: org.eclipse.core.internal.resources.ResourceException(/Communication/target/generated-sources/protobuf/java/pt/tecnico/sec/hdlt/communication/ObtainUsersAtLocationResponse.java)[368]: java.lang.Exception: File not found: /Users/ocarinaredcoat/Documents/OneDrive - Universidade de Lisboa/IST/Mestrado/2o semestre/SEC/HDLT/Communication/target/generated-sources/protobuf/java/pt/tecnico/sec/hdlt/communication/ObtainUsersAtLocationResponse.java.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:835)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:275)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1212)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1186)
+	at org.eclipse.jdt.internal.core.CompilationUnit.openBuffer(CompilationUnit.java:1218)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:114)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:326)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:312)
+	at org.eclipse.jdt.internal.core.Openable.getBuffer(Openable.java:296)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:274)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:218)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer$2.run(JDTLanguageServer.java:305)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2021-05-03 22:03:32.896
+!MESSAGE File not found: /Users/ocarinaredcoat/Documents/OneDrive - Universidade de Lisboa/IST/Mestrado/2o semestre/SEC/HDLT/Communication/target/generated-sources/protobuf/java/pt/tecnico/sec/hdlt/communication/ObtainUsersAtLocationResponse.java.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/Communication/target/generated-sources/protobuf/java/pt/tecnico/sec/hdlt/communication/ObtainUsersAtLocationResponse.java)[368]: java.lang.Exception: File not found: /Users/ocarinaredcoat/Documents/OneDrive - Universidade de Lisboa/IST/Mestrado/2o semestre/SEC/HDLT/Communication/target/generated-sources/protobuf/java/pt/tecnico/sec/hdlt/communication/ObtainUsersAtLocationResponse.java.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:835)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:275)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1212)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1186)
+	at org.eclipse.jdt.internal.core.CompilationUnit.openBuffer(CompilationUnit.java:1218)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:114)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:326)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:312)
+	at org.eclipse.jdt.internal.core.Openable.getBuffer(Openable.java:296)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:274)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:218)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer$2.run(JDTLanguageServer.java:305)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 2 org.eclipse.core.resources 4 368 2021-05-03 22:03:32.896
+!MESSAGE File not found: /Users/ocarinaredcoat/Documents/OneDrive - Universidade de Lisboa/IST/Mestrado/2o semestre/SEC/HDLT/Communication/target/generated-sources/protobuf/java/pt/tecnico/sec/hdlt/communication/ObtainUsersAtLocationResponse.java.
+!STACK 0
+java.lang.Exception: File not found: /Users/ocarinaredcoat/Documents/OneDrive - Universidade de Lisboa/IST/Mestrado/2o semestre/SEC/HDLT/Communication/target/generated-sources/protobuf/java/pt/tecnico/sec/hdlt/communication/ObtainUsersAtLocationResponse.java.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:835)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:275)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1212)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1186)
+	at org.eclipse.jdt.internal.core.CompilationUnit.openBuffer(CompilationUnit.java:1218)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:114)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:326)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:312)
+	at org.eclipse.jdt.internal.core.Openable.getBuffer(Openable.java:296)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:274)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:218)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer$2.run(JDTLanguageServer.java:305)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2021-05-03 22:03:32.917
+!MESSAGE Failed to publish diagnostics for file:///Users/ocarinaredcoat/Documents/OneDrive%20-%20Universidade%20de%20Lisboa/IST/Mestrado/2o%20semestre/SEC/HDLT/Communication/target/generated-sources/protobuf/java/pt/tecnico/sec/hdlt/communication/LocationInformationRequest.java
+!STACK 1
+Java Model Exception: Core Exception [code 368] File not found: /Users/ocarinaredcoat/Documents/OneDrive - Universidade de Lisboa/IST/Mestrado/2o semestre/SEC/HDLT/Communication/target/generated-sources/protobuf/java/pt/tecnico/sec/hdlt/communication/LocationInformationRequest.java.
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1214)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1186)
+	at org.eclipse.jdt.internal.core.CompilationUnit.openBuffer(CompilationUnit.java:1218)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:114)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:326)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:312)
+	at org.eclipse.jdt.internal.core.Openable.getBuffer(Openable.java:296)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:274)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:218)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer$2.run(JDTLanguageServer.java:305)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.eclipse.core.internal.resources.ResourceException: File not found: /Users/ocarinaredcoat/Documents/OneDrive - Universidade de Lisboa/IST/Mestrado/2o semestre/SEC/HDLT/Communication/target/generated-sources/protobuf/java/pt/tecnico/sec/hdlt/communication/LocationInformationRequest.java.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:835)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:275)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1212)
+	... 12 more
+Caused by: java.lang.Exception: File not found: /Users/ocarinaredcoat/Documents/OneDrive - Universidade de Lisboa/IST/Mestrado/2o semestre/SEC/HDLT/Communication/target/generated-sources/protobuf/java/pt/tecnico/sec/hdlt/communication/LocationInformationRequest.java.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	... 15 more
+Caused by: org.eclipse.core.internal.resources.ResourceException(/Communication/target/generated-sources/protobuf/java/pt/tecnico/sec/hdlt/communication/LocationInformationRequest.java)[368]: java.lang.Exception: File not found: /Users/ocarinaredcoat/Documents/OneDrive - Universidade de Lisboa/IST/Mestrado/2o semestre/SEC/HDLT/Communication/target/generated-sources/protobuf/java/pt/tecnico/sec/hdlt/communication/LocationInformationRequest.java.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:835)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:275)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1212)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1186)
+	at org.eclipse.jdt.internal.core.CompilationUnit.openBuffer(CompilationUnit.java:1218)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:114)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:326)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:312)
+	at org.eclipse.jdt.internal.core.Openable.getBuffer(Openable.java:296)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:274)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:218)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer$2.run(JDTLanguageServer.java:305)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2021-05-03 22:03:32.917
+!MESSAGE File not found: /Users/ocarinaredcoat/Documents/OneDrive - Universidade de Lisboa/IST/Mestrado/2o semestre/SEC/HDLT/Communication/target/generated-sources/protobuf/java/pt/tecnico/sec/hdlt/communication/LocationInformationRequest.java.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/Communication/target/generated-sources/protobuf/java/pt/tecnico/sec/hdlt/communication/LocationInformationRequest.java)[368]: java.lang.Exception: File not found: /Users/ocarinaredcoat/Documents/OneDrive - Universidade de Lisboa/IST/Mestrado/2o semestre/SEC/HDLT/Communication/target/generated-sources/protobuf/java/pt/tecnico/sec/hdlt/communication/LocationInformationRequest.java.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:835)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:275)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1212)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1186)
+	at org.eclipse.jdt.internal.core.CompilationUnit.openBuffer(CompilationUnit.java:1218)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:114)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:326)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:312)
+	at org.eclipse.jdt.internal.core.Openable.getBuffer(Openable.java:296)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:274)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:218)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer$2.run(JDTLanguageServer.java:305)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 2 org.eclipse.core.resources 4 368 2021-05-03 22:03:32.917
+!MESSAGE File not found: /Users/ocarinaredcoat/Documents/OneDrive - Universidade de Lisboa/IST/Mestrado/2o semestre/SEC/HDLT/Communication/target/generated-sources/protobuf/java/pt/tecnico/sec/hdlt/communication/LocationInformationRequest.java.
+!STACK 0
+java.lang.Exception: File not found: /Users/ocarinaredcoat/Documents/OneDrive - Universidade de Lisboa/IST/Mestrado/2o semestre/SEC/HDLT/Communication/target/generated-sources/protobuf/java/pt/tecnico/sec/hdlt/communication/LocationInformationRequest.java.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:835)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:275)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1212)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1186)
+	at org.eclipse.jdt.internal.core.CompilationUnit.openBuffer(CompilationUnit.java:1218)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:114)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:326)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:312)
+	at org.eclipse.jdt.internal.core.Openable.getBuffer(Openable.java:296)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:274)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:218)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer$2.run(JDTLanguageServer.java:305)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2021-05-03 22:03:32.932
+!MESSAGE Failed to publish diagnostics for file:///Users/ocarinaredcoat/Documents/OneDrive%20-%20Universidade%20de%20Lisboa/IST/Mestrado/2o%20semestre/SEC/HDLT/Communication/target/generated-sources/protobuf/java/pt/tecnico/sec/hdlt/communication/ObtainLocationReportResponse.java
+!STACK 1
+Java Model Exception: Core Exception [code 368] File not found: /Users/ocarinaredcoat/Documents/OneDrive - Universidade de Lisboa/IST/Mestrado/2o semestre/SEC/HDLT/Communication/target/generated-sources/protobuf/java/pt/tecnico/sec/hdlt/communication/ObtainLocationReportResponse.java.
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1214)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1186)
+	at org.eclipse.jdt.internal.core.CompilationUnit.openBuffer(CompilationUnit.java:1218)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:114)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:326)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:312)
+	at org.eclipse.jdt.internal.core.Openable.getBuffer(Openable.java:296)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:274)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:218)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer$2.run(JDTLanguageServer.java:305)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.eclipse.core.internal.resources.ResourceException: File not found: /Users/ocarinaredcoat/Documents/OneDrive - Universidade de Lisboa/IST/Mestrado/2o semestre/SEC/HDLT/Communication/target/generated-sources/protobuf/java/pt/tecnico/sec/hdlt/communication/ObtainLocationReportResponse.java.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:835)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:275)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1212)
+	... 12 more
+Caused by: java.lang.Exception: File not found: /Users/ocarinaredcoat/Documents/OneDrive - Universidade de Lisboa/IST/Mestrado/2o semestre/SEC/HDLT/Communication/target/generated-sources/protobuf/java/pt/tecnico/sec/hdlt/communication/ObtainLocationReportResponse.java.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	... 15 more
+Caused by: org.eclipse.core.internal.resources.ResourceException(/Communication/target/generated-sources/protobuf/java/pt/tecnico/sec/hdlt/communication/ObtainLocationReportResponse.java)[368]: java.lang.Exception: File not found: /Users/ocarinaredcoat/Documents/OneDrive - Universidade de Lisboa/IST/Mestrado/2o semestre/SEC/HDLT/Communication/target/generated-sources/protobuf/java/pt/tecnico/sec/hdlt/communication/ObtainLocationReportResponse.java.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:835)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:275)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1212)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1186)
+	at org.eclipse.jdt.internal.core.CompilationUnit.openBuffer(CompilationUnit.java:1218)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:114)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:326)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:312)
+	at org.eclipse.jdt.internal.core.Openable.getBuffer(Openable.java:296)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:274)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:218)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer$2.run(JDTLanguageServer.java:305)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2021-05-03 22:03:32.932
+!MESSAGE File not found: /Users/ocarinaredcoat/Documents/OneDrive - Universidade de Lisboa/IST/Mestrado/2o semestre/SEC/HDLT/Communication/target/generated-sources/protobuf/java/pt/tecnico/sec/hdlt/communication/ObtainLocationReportResponse.java.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/Communication/target/generated-sources/protobuf/java/pt/tecnico/sec/hdlt/communication/ObtainLocationReportResponse.java)[368]: java.lang.Exception: File not found: /Users/ocarinaredcoat/Documents/OneDrive - Universidade de Lisboa/IST/Mestrado/2o semestre/SEC/HDLT/Communication/target/generated-sources/protobuf/java/pt/tecnico/sec/hdlt/communication/ObtainLocationReportResponse.java.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:835)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:275)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1212)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1186)
+	at org.eclipse.jdt.internal.core.CompilationUnit.openBuffer(CompilationUnit.java:1218)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:114)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:326)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:312)
+	at org.eclipse.jdt.internal.core.Openable.getBuffer(Openable.java:296)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:274)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:218)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer$2.run(JDTLanguageServer.java:305)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 2 org.eclipse.core.resources 4 368 2021-05-03 22:03:32.933
+!MESSAGE File not found: /Users/ocarinaredcoat/Documents/OneDrive - Universidade de Lisboa/IST/Mestrado/2o semestre/SEC/HDLT/Communication/target/generated-sources/protobuf/java/pt/tecnico/sec/hdlt/communication/ObtainLocationReportResponse.java.
+!STACK 0
+java.lang.Exception: File not found: /Users/ocarinaredcoat/Documents/OneDrive - Universidade de Lisboa/IST/Mestrado/2o semestre/SEC/HDLT/Communication/target/generated-sources/protobuf/java/pt/tecnico/sec/hdlt/communication/ObtainLocationReportResponse.java.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:835)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:275)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1212)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1186)
+	at org.eclipse.jdt.internal.core.CompilationUnit.openBuffer(CompilationUnit.java:1218)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:114)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:326)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:312)
+	at org.eclipse.jdt.internal.core.Openable.getBuffer(Openable.java:296)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:274)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:218)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer$2.run(JDTLanguageServer.java:305)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2021-05-03 22:03:32.943
+!MESSAGE Failed to publish diagnostics for file:///Users/ocarinaredcoat/Documents/OneDrive%20-%20Universidade%20de%20Lisboa/IST/Mestrado/2o%20semestre/SEC/HDLT/Communication/target/generated-sources/protobuf/grpc-java/pt/tecnico/sec/hdlt/communication/ClientServerGrpc.java
+!STACK 1
+Java Model Exception: Core Exception [code 368] File not found: /Users/ocarinaredcoat/Documents/OneDrive - Universidade de Lisboa/IST/Mestrado/2o semestre/SEC/HDLT/Communication/target/generated-sources/protobuf/grpc-java/pt/tecnico/sec/hdlt/communication/ClientServerGrpc.java.
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1214)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1186)
+	at org.eclipse.jdt.internal.core.CompilationUnit.openBuffer(CompilationUnit.java:1218)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:114)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:326)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:312)
+	at org.eclipse.jdt.internal.core.Openable.getBuffer(Openable.java:296)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:274)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:218)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer$2.run(JDTLanguageServer.java:305)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.eclipse.core.internal.resources.ResourceException: File not found: /Users/ocarinaredcoat/Documents/OneDrive - Universidade de Lisboa/IST/Mestrado/2o semestre/SEC/HDLT/Communication/target/generated-sources/protobuf/grpc-java/pt/tecnico/sec/hdlt/communication/ClientServerGrpc.java.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:835)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:275)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1212)
+	... 12 more
+Caused by: java.lang.Exception: File not found: /Users/ocarinaredcoat/Documents/OneDrive - Universidade de Lisboa/IST/Mestrado/2o semestre/SEC/HDLT/Communication/target/generated-sources/protobuf/grpc-java/pt/tecnico/sec/hdlt/communication/ClientServerGrpc.java.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	... 15 more
+Caused by: org.eclipse.core.internal.resources.ResourceException(/Communication/target/generated-sources/protobuf/grpc-java/pt/tecnico/sec/hdlt/communication/ClientServerGrpc.java)[368]: java.lang.Exception: File not found: /Users/ocarinaredcoat/Documents/OneDrive - Universidade de Lisboa/IST/Mestrado/2o semestre/SEC/HDLT/Communication/target/generated-sources/protobuf/grpc-java/pt/tecnico/sec/hdlt/communication/ClientServerGrpc.java.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:835)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:275)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1212)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1186)
+	at org.eclipse.jdt.internal.core.CompilationUnit.openBuffer(CompilationUnit.java:1218)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:114)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:326)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:312)
+	at org.eclipse.jdt.internal.core.Openable.getBuffer(Openable.java:296)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:274)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:218)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer$2.run(JDTLanguageServer.java:305)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2021-05-03 22:03:32.944
+!MESSAGE File not found: /Users/ocarinaredcoat/Documents/OneDrive - Universidade de Lisboa/IST/Mestrado/2o semestre/SEC/HDLT/Communication/target/generated-sources/protobuf/grpc-java/pt/tecnico/sec/hdlt/communication/ClientServerGrpc.java.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/Communication/target/generated-sources/protobuf/grpc-java/pt/tecnico/sec/hdlt/communication/ClientServerGrpc.java)[368]: java.lang.Exception: File not found: /Users/ocarinaredcoat/Documents/OneDrive - Universidade de Lisboa/IST/Mestrado/2o semestre/SEC/HDLT/Communication/target/generated-sources/protobuf/grpc-java/pt/tecnico/sec/hdlt/communication/ClientServerGrpc.java.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:835)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:275)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1212)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1186)
+	at org.eclipse.jdt.internal.core.CompilationUnit.openBuffer(CompilationUnit.java:1218)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:114)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:326)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:312)
+	at org.eclipse.jdt.internal.core.Openable.getBuffer(Openable.java:296)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:274)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:218)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer$2.run(JDTLanguageServer.java:305)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 2 org.eclipse.core.resources 4 368 2021-05-03 22:03:32.944
+!MESSAGE File not found: /Users/ocarinaredcoat/Documents/OneDrive - Universidade de Lisboa/IST/Mestrado/2o semestre/SEC/HDLT/Communication/target/generated-sources/protobuf/grpc-java/pt/tecnico/sec/hdlt/communication/ClientServerGrpc.java.
+!STACK 0
+java.lang.Exception: File not found: /Users/ocarinaredcoat/Documents/OneDrive - Universidade de Lisboa/IST/Mestrado/2o semestre/SEC/HDLT/Communication/target/generated-sources/protobuf/grpc-java/pt/tecnico/sec/hdlt/communication/ClientServerGrpc.java.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:835)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:275)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1212)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1186)
+	at org.eclipse.jdt.internal.core.CompilationUnit.openBuffer(CompilationUnit.java:1218)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:114)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:326)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:312)
+	at org.eclipse.jdt.internal.core.Openable.getBuffer(Openable.java:296)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:274)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:218)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer$2.run(JDTLanguageServer.java:305)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2021-05-03 22:03:32.948
+!MESSAGE Failed to publish diagnostics for file:///Users/ocarinaredcoat/Documents/OneDrive%20-%20Universidade%20de%20Lisboa/IST/Mestrado/2o%20semestre/SEC/HDLT/Communication/target/generated-sources/protobuf/java/pt/tecnico/sec/hdlt/communication/ServerSignedSignedLocationReport.java
+!STACK 1
+Java Model Exception: Core Exception [code 368] File not found: /Users/ocarinaredcoat/Documents/OneDrive - Universidade de Lisboa/IST/Mestrado/2o semestre/SEC/HDLT/Communication/target/generated-sources/protobuf/java/pt/tecnico/sec/hdlt/communication/ServerSignedSignedLocationReport.java.
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1214)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1186)
+	at org.eclipse.jdt.internal.core.CompilationUnit.openBuffer(CompilationUnit.java:1218)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:114)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:326)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:312)
+	at org.eclipse.jdt.internal.core.Openable.getBuffer(Openable.java:296)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:274)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:218)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer$2.run(JDTLanguageServer.java:305)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.eclipse.core.internal.resources.ResourceException: File not found: /Users/ocarinaredcoat/Documents/OneDrive - Universidade de Lisboa/IST/Mestrado/2o semestre/SEC/HDLT/Communication/target/generated-sources/protobuf/java/pt/tecnico/sec/hdlt/communication/ServerSignedSignedLocationReport.java.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:835)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:275)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1212)
+	... 12 more
+Caused by: java.lang.Exception: File not found: /Users/ocarinaredcoat/Documents/OneDrive - Universidade de Lisboa/IST/Mestrado/2o semestre/SEC/HDLT/Communication/target/generated-sources/protobuf/java/pt/tecnico/sec/hdlt/communication/ServerSignedSignedLocationReport.java.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	... 15 more
+Caused by: org.eclipse.core.internal.resources.ResourceException(/Communication/target/generated-sources/protobuf/java/pt/tecnico/sec/hdlt/communication/ServerSignedSignedLocationReport.java)[368]: java.lang.Exception: File not found: /Users/ocarinaredcoat/Documents/OneDrive - Universidade de Lisboa/IST/Mestrado/2o semestre/SEC/HDLT/Communication/target/generated-sources/protobuf/java/pt/tecnico/sec/hdlt/communication/ServerSignedSignedLocationReport.java.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:835)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:275)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1212)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1186)
+	at org.eclipse.jdt.internal.core.CompilationUnit.openBuffer(CompilationUnit.java:1218)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:114)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:326)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:312)
+	at org.eclipse.jdt.internal.core.Openable.getBuffer(Openable.java:296)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:274)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:218)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer$2.run(JDTLanguageServer.java:305)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2021-05-03 22:03:32.949
+!MESSAGE File not found: /Users/ocarinaredcoat/Documents/OneDrive - Universidade de Lisboa/IST/Mestrado/2o semestre/SEC/HDLT/Communication/target/generated-sources/protobuf/java/pt/tecnico/sec/hdlt/communication/ServerSignedSignedLocationReport.java.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/Communication/target/generated-sources/protobuf/java/pt/tecnico/sec/hdlt/communication/ServerSignedSignedLocationReport.java)[368]: java.lang.Exception: File not found: /Users/ocarinaredcoat/Documents/OneDrive - Universidade de Lisboa/IST/Mestrado/2o semestre/SEC/HDLT/Communication/target/generated-sources/protobuf/java/pt/tecnico/sec/hdlt/communication/ServerSignedSignedLocationReport.java.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:835)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:275)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1212)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1186)
+	at org.eclipse.jdt.internal.core.CompilationUnit.openBuffer(CompilationUnit.java:1218)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:114)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:326)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:312)
+	at org.eclipse.jdt.internal.core.Openable.getBuffer(Openable.java:296)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:274)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:218)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer$2.run(JDTLanguageServer.java:305)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 2 org.eclipse.core.resources 4 368 2021-05-03 22:03:32.949
+!MESSAGE File not found: /Users/ocarinaredcoat/Documents/OneDrive - Universidade de Lisboa/IST/Mestrado/2o semestre/SEC/HDLT/Communication/target/generated-sources/protobuf/java/pt/tecnico/sec/hdlt/communication/ServerSignedSignedLocationReport.java.
+!STACK 0
+java.lang.Exception: File not found: /Users/ocarinaredcoat/Documents/OneDrive - Universidade de Lisboa/IST/Mestrado/2o semestre/SEC/HDLT/Communication/target/generated-sources/protobuf/java/pt/tecnico/sec/hdlt/communication/ServerSignedSignedLocationReport.java.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:835)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:275)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1212)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1186)
+	at org.eclipse.jdt.internal.core.CompilationUnit.openBuffer(CompilationUnit.java:1218)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:114)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:326)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:312)
+	at org.eclipse.jdt.internal.core.Openable.getBuffer(Openable.java:296)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:274)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:218)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer$2.run(JDTLanguageServer.java:305)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2021-05-03 22:03:32.955
+!MESSAGE Failed to publish diagnostics for file:///Users/ocarinaredcoat/Documents/OneDrive%20-%20Universidade%20de%20Lisboa/IST/Mestrado/2o%20semestre/SEC/HDLT/Communication/target/generated-sources/protobuf/java/pt/tecnico/sec/hdlt/communication/ObtainLocationReportRequest.java
+!STACK 1
+Java Model Exception: Core Exception [code 368] File not found: /Users/ocarinaredcoat/Documents/OneDrive - Universidade de Lisboa/IST/Mestrado/2o semestre/SEC/HDLT/Communication/target/generated-sources/protobuf/java/pt/tecnico/sec/hdlt/communication/ObtainLocationReportRequest.java.
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1214)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1186)
+	at org.eclipse.jdt.internal.core.CompilationUnit.openBuffer(CompilationUnit.java:1218)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:114)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:326)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:312)
+	at org.eclipse.jdt.internal.core.Openable.getBuffer(Openable.java:296)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:274)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:218)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer$2.run(JDTLanguageServer.java:305)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.eclipse.core.internal.resources.ResourceException: File not found: /Users/ocarinaredcoat/Documents/OneDrive - Universidade de Lisboa/IST/Mestrado/2o semestre/SEC/HDLT/Communication/target/generated-sources/protobuf/java/pt/tecnico/sec/hdlt/communication/ObtainLocationReportRequest.java.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:835)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:275)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1212)
+	... 12 more
+Caused by: java.lang.Exception: File not found: /Users/ocarinaredcoat/Documents/OneDrive - Universidade de Lisboa/IST/Mestrado/2o semestre/SEC/HDLT/Communication/target/generated-sources/protobuf/java/pt/tecnico/sec/hdlt/communication/ObtainLocationReportRequest.java.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	... 15 more
+Caused by: org.eclipse.core.internal.resources.ResourceException(/Communication/target/generated-sources/protobuf/java/pt/tecnico/sec/hdlt/communication/ObtainLocationReportRequest.java)[368]: java.lang.Exception: File not found: /Users/ocarinaredcoat/Documents/OneDrive - Universidade de Lisboa/IST/Mestrado/2o semestre/SEC/HDLT/Communication/target/generated-sources/protobuf/java/pt/tecnico/sec/hdlt/communication/ObtainLocationReportRequest.java.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:835)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:275)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1212)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1186)
+	at org.eclipse.jdt.internal.core.CompilationUnit.openBuffer(CompilationUnit.java:1218)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:114)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:326)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:312)
+	at org.eclipse.jdt.internal.core.Openable.getBuffer(Openable.java:296)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:274)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:218)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer$2.run(JDTLanguageServer.java:305)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2021-05-03 22:03:32.955
+!MESSAGE File not found: /Users/ocarinaredcoat/Documents/OneDrive - Universidade de Lisboa/IST/Mestrado/2o semestre/SEC/HDLT/Communication/target/generated-sources/protobuf/java/pt/tecnico/sec/hdlt/communication/ObtainLocationReportRequest.java.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/Communication/target/generated-sources/protobuf/java/pt/tecnico/sec/hdlt/communication/ObtainLocationReportRequest.java)[368]: java.lang.Exception: File not found: /Users/ocarinaredcoat/Documents/OneDrive - Universidade de Lisboa/IST/Mestrado/2o semestre/SEC/HDLT/Communication/target/generated-sources/protobuf/java/pt/tecnico/sec/hdlt/communication/ObtainLocationReportRequest.java.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:835)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:275)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1212)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1186)
+	at org.eclipse.jdt.internal.core.CompilationUnit.openBuffer(CompilationUnit.java:1218)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:114)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:326)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:312)
+	at org.eclipse.jdt.internal.core.Openable.getBuffer(Openable.java:296)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:274)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:218)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer$2.run(JDTLanguageServer.java:305)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 2 org.eclipse.core.resources 4 368 2021-05-03 22:03:32.955
+!MESSAGE File not found: /Users/ocarinaredcoat/Documents/OneDrive - Universidade de Lisboa/IST/Mestrado/2o semestre/SEC/HDLT/Communication/target/generated-sources/protobuf/java/pt/tecnico/sec/hdlt/communication/ObtainLocationReportRequest.java.
+!STACK 0
+java.lang.Exception: File not found: /Users/ocarinaredcoat/Documents/OneDrive - Universidade de Lisboa/IST/Mestrado/2o semestre/SEC/HDLT/Communication/target/generated-sources/protobuf/java/pt/tecnico/sec/hdlt/communication/ObtainLocationReportRequest.java.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:835)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:275)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1212)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1186)
+	at org.eclipse.jdt.internal.core.CompilationUnit.openBuffer(CompilationUnit.java:1218)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:114)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:326)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:312)
+	at org.eclipse.jdt.internal.core.Openable.getBuffer(Openable.java:296)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:274)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:218)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer$2.run(JDTLanguageServer.java:305)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2021-05-03 22:03:32.979
+!MESSAGE Failed to publish diagnostics for file:///Users/ocarinaredcoat/Documents/OneDrive%20-%20Universidade%20de%20Lisboa/IST/Mestrado/2o%20semestre/SEC/HDLT/Communication/target/generated-sources/protobuf/java/pt/tecnico/sec/hdlt/communication/LocationProof.java
+!STACK 1
+Java Model Exception: Core Exception [code 368] File not found: /Users/ocarinaredcoat/Documents/OneDrive - Universidade de Lisboa/IST/Mestrado/2o semestre/SEC/HDLT/Communication/target/generated-sources/protobuf/java/pt/tecnico/sec/hdlt/communication/LocationProof.java.
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1214)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1186)
+	at org.eclipse.jdt.internal.core.CompilationUnit.openBuffer(CompilationUnit.java:1218)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:114)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:326)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:312)
+	at org.eclipse.jdt.internal.core.Openable.getBuffer(Openable.java:296)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:274)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:218)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer$2.run(JDTLanguageServer.java:305)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.eclipse.core.internal.resources.ResourceException: File not found: /Users/ocarinaredcoat/Documents/OneDrive - Universidade de Lisboa/IST/Mestrado/2o semestre/SEC/HDLT/Communication/target/generated-sources/protobuf/java/pt/tecnico/sec/hdlt/communication/LocationProof.java.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:835)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:275)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1212)
+	... 12 more
+Caused by: java.lang.Exception: File not found: /Users/ocarinaredcoat/Documents/OneDrive - Universidade de Lisboa/IST/Mestrado/2o semestre/SEC/HDLT/Communication/target/generated-sources/protobuf/java/pt/tecnico/sec/hdlt/communication/LocationProof.java.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	... 15 more
+Caused by: org.eclipse.core.internal.resources.ResourceException(/Communication/target/generated-sources/protobuf/java/pt/tecnico/sec/hdlt/communication/LocationProof.java)[368]: java.lang.Exception: File not found: /Users/ocarinaredcoat/Documents/OneDrive - Universidade de Lisboa/IST/Mestrado/2o semestre/SEC/HDLT/Communication/target/generated-sources/protobuf/java/pt/tecnico/sec/hdlt/communication/LocationProof.java.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:835)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:275)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1212)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1186)
+	at org.eclipse.jdt.internal.core.CompilationUnit.openBuffer(CompilationUnit.java:1218)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:114)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:326)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:312)
+	at org.eclipse.jdt.internal.core.Openable.getBuffer(Openable.java:296)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:274)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:218)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer$2.run(JDTLanguageServer.java:305)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2021-05-03 22:03:32.979
+!MESSAGE File not found: /Users/ocarinaredcoat/Documents/OneDrive - Universidade de Lisboa/IST/Mestrado/2o semestre/SEC/HDLT/Communication/target/generated-sources/protobuf/java/pt/tecnico/sec/hdlt/communication/LocationProof.java.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/Communication/target/generated-sources/protobuf/java/pt/tecnico/sec/hdlt/communication/LocationProof.java)[368]: java.lang.Exception: File not found: /Users/ocarinaredcoat/Documents/OneDrive - Universidade de Lisboa/IST/Mestrado/2o semestre/SEC/HDLT/Communication/target/generated-sources/protobuf/java/pt/tecnico/sec/hdlt/communication/LocationProof.java.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:835)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:275)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1212)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1186)
+	at org.eclipse.jdt.internal.core.CompilationUnit.openBuffer(CompilationUnit.java:1218)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:114)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:326)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:312)
+	at org.eclipse.jdt.internal.core.Openable.getBuffer(Openable.java:296)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:274)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:218)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer$2.run(JDTLanguageServer.java:305)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 2 org.eclipse.core.resources 4 368 2021-05-03 22:03:32.979
+!MESSAGE File not found: /Users/ocarinaredcoat/Documents/OneDrive - Universidade de Lisboa/IST/Mestrado/2o semestre/SEC/HDLT/Communication/target/generated-sources/protobuf/java/pt/tecnico/sec/hdlt/communication/LocationProof.java.
+!STACK 0
+java.lang.Exception: File not found: /Users/ocarinaredcoat/Documents/OneDrive - Universidade de Lisboa/IST/Mestrado/2o semestre/SEC/HDLT/Communication/target/generated-sources/protobuf/java/pt/tecnico/sec/hdlt/communication/LocationProof.java.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:835)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:275)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1212)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1186)
+	at org.eclipse.jdt.internal.core.CompilationUnit.openBuffer(CompilationUnit.java:1218)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:114)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:326)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:312)
+	at org.eclipse.jdt.internal.core.Openable.getBuffer(Openable.java:296)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:274)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:218)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer$2.run(JDTLanguageServer.java:305)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2021-05-03 22:03:33.000
+!MESSAGE Failed to publish diagnostics for file:///Users/ocarinaredcoat/Documents/OneDrive%20-%20Universidade%20de%20Lisboa/IST/Mestrado/2o%20semestre/SEC/HDLT/Communication/target/generated-sources/protobuf/java/pt/tecnico/sec/hdlt/communication/SubmitLocationReportResponse.java
+!STACK 1
+Java Model Exception: Core Exception [code 368] File not found: /Users/ocarinaredcoat/Documents/OneDrive - Universidade de Lisboa/IST/Mestrado/2o semestre/SEC/HDLT/Communication/target/generated-sources/protobuf/java/pt/tecnico/sec/hdlt/communication/SubmitLocationReportResponse.java.
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1214)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1186)
+	at org.eclipse.jdt.internal.core.CompilationUnit.openBuffer(CompilationUnit.java:1218)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:114)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:326)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:312)
+	at org.eclipse.jdt.internal.core.Openable.getBuffer(Openable.java:296)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:274)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:218)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer$2.run(JDTLanguageServer.java:305)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.eclipse.core.internal.resources.ResourceException: File not found: /Users/ocarinaredcoat/Documents/OneDrive - Universidade de Lisboa/IST/Mestrado/2o semestre/SEC/HDLT/Communication/target/generated-sources/protobuf/java/pt/tecnico/sec/hdlt/communication/SubmitLocationReportResponse.java.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:835)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:275)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1212)
+	... 12 more
+Caused by: java.lang.Exception: File not found: /Users/ocarinaredcoat/Documents/OneDrive - Universidade de Lisboa/IST/Mestrado/2o semestre/SEC/HDLT/Communication/target/generated-sources/protobuf/java/pt/tecnico/sec/hdlt/communication/SubmitLocationReportResponse.java.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	... 15 more
+Caused by: org.eclipse.core.internal.resources.ResourceException(/Communication/target/generated-sources/protobuf/java/pt/tecnico/sec/hdlt/communication/SubmitLocationReportResponse.java)[368]: java.lang.Exception: File not found: /Users/ocarinaredcoat/Documents/OneDrive - Universidade de Lisboa/IST/Mestrado/2o semestre/SEC/HDLT/Communication/target/generated-sources/protobuf/java/pt/tecnico/sec/hdlt/communication/SubmitLocationReportResponse.java.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:835)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:275)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1212)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1186)
+	at org.eclipse.jdt.internal.core.CompilationUnit.openBuffer(CompilationUnit.java:1218)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:114)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:326)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:312)
+	at org.eclipse.jdt.internal.core.Openable.getBuffer(Openable.java:296)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:274)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:218)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer$2.run(JDTLanguageServer.java:305)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2021-05-03 22:03:33.001
+!MESSAGE File not found: /Users/ocarinaredcoat/Documents/OneDrive - Universidade de Lisboa/IST/Mestrado/2o semestre/SEC/HDLT/Communication/target/generated-sources/protobuf/java/pt/tecnico/sec/hdlt/communication/SubmitLocationReportResponse.java.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/Communication/target/generated-sources/protobuf/java/pt/tecnico/sec/hdlt/communication/SubmitLocationReportResponse.java)[368]: java.lang.Exception: File not found: /Users/ocarinaredcoat/Documents/OneDrive - Universidade de Lisboa/IST/Mestrado/2o semestre/SEC/HDLT/Communication/target/generated-sources/protobuf/java/pt/tecnico/sec/hdlt/communication/SubmitLocationReportResponse.java.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:835)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:275)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1212)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1186)
+	at org.eclipse.jdt.internal.core.CompilationUnit.openBuffer(CompilationUnit.java:1218)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:114)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:326)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:312)
+	at org.eclipse.jdt.internal.core.Openable.getBuffer(Openable.java:296)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:274)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:218)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer$2.run(JDTLanguageServer.java:305)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 2 org.eclipse.core.resources 4 368 2021-05-03 22:03:33.001
+!MESSAGE File not found: /Users/ocarinaredcoat/Documents/OneDrive - Universidade de Lisboa/IST/Mestrado/2o semestre/SEC/HDLT/Communication/target/generated-sources/protobuf/java/pt/tecnico/sec/hdlt/communication/SubmitLocationReportResponse.java.
+!STACK 0
+java.lang.Exception: File not found: /Users/ocarinaredcoat/Documents/OneDrive - Universidade de Lisboa/IST/Mestrado/2o semestre/SEC/HDLT/Communication/target/generated-sources/protobuf/java/pt/tecnico/sec/hdlt/communication/SubmitLocationReportResponse.java.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:835)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:275)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1212)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1186)
+	at org.eclipse.jdt.internal.core.CompilationUnit.openBuffer(CompilationUnit.java:1218)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:114)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:326)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:312)
+	at org.eclipse.jdt.internal.core.Openable.getBuffer(Openable.java:296)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:274)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:218)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer$2.run(JDTLanguageServer.java:305)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2021-05-03 22:03:33.005
+!MESSAGE Failed to publish diagnostics for file:///Users/ocarinaredcoat/Documents/OneDrive%20-%20Universidade%20de%20Lisboa/IST/Mestrado/2o%20semestre/SEC/HDLT/Communication/target/generated-sources/protobuf/java/pt/tecnico/sec/hdlt/communication/ServerSignedSignedLocationReportList.java
+!STACK 1
+Java Model Exception: Core Exception [code 368] File not found: /Users/ocarinaredcoat/Documents/OneDrive - Universidade de Lisboa/IST/Mestrado/2o semestre/SEC/HDLT/Communication/target/generated-sources/protobuf/java/pt/tecnico/sec/hdlt/communication/ServerSignedSignedLocationReportList.java.
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1214)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1186)
+	at org.eclipse.jdt.internal.core.CompilationUnit.openBuffer(CompilationUnit.java:1218)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:114)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:326)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:312)
+	at org.eclipse.jdt.internal.core.Openable.getBuffer(Openable.java:296)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:274)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:218)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer$2.run(JDTLanguageServer.java:305)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.eclipse.core.internal.resources.ResourceException: File not found: /Users/ocarinaredcoat/Documents/OneDrive - Universidade de Lisboa/IST/Mestrado/2o semestre/SEC/HDLT/Communication/target/generated-sources/protobuf/java/pt/tecnico/sec/hdlt/communication/ServerSignedSignedLocationReportList.java.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:835)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:275)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1212)
+	... 12 more
+Caused by: java.lang.Exception: File not found: /Users/ocarinaredcoat/Documents/OneDrive - Universidade de Lisboa/IST/Mestrado/2o semestre/SEC/HDLT/Communication/target/generated-sources/protobuf/java/pt/tecnico/sec/hdlt/communication/ServerSignedSignedLocationReportList.java.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	... 15 more
+Caused by: org.eclipse.core.internal.resources.ResourceException(/Communication/target/generated-sources/protobuf/java/pt/tecnico/sec/hdlt/communication/ServerSignedSignedLocationReportList.java)[368]: java.lang.Exception: File not found: /Users/ocarinaredcoat/Documents/OneDrive - Universidade de Lisboa/IST/Mestrado/2o semestre/SEC/HDLT/Communication/target/generated-sources/protobuf/java/pt/tecnico/sec/hdlt/communication/ServerSignedSignedLocationReportList.java.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:835)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:275)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1212)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1186)
+	at org.eclipse.jdt.internal.core.CompilationUnit.openBuffer(CompilationUnit.java:1218)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:114)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:326)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:312)
+	at org.eclipse.jdt.internal.core.Openable.getBuffer(Openable.java:296)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:274)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:218)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer$2.run(JDTLanguageServer.java:305)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2021-05-03 22:03:33.006
+!MESSAGE File not found: /Users/ocarinaredcoat/Documents/OneDrive - Universidade de Lisboa/IST/Mestrado/2o semestre/SEC/HDLT/Communication/target/generated-sources/protobuf/java/pt/tecnico/sec/hdlt/communication/ServerSignedSignedLocationReportList.java.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/Communication/target/generated-sources/protobuf/java/pt/tecnico/sec/hdlt/communication/ServerSignedSignedLocationReportList.java)[368]: java.lang.Exception: File not found: /Users/ocarinaredcoat/Documents/OneDrive - Universidade de Lisboa/IST/Mestrado/2o semestre/SEC/HDLT/Communication/target/generated-sources/protobuf/java/pt/tecnico/sec/hdlt/communication/ServerSignedSignedLocationReportList.java.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:835)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:275)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1212)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1186)
+	at org.eclipse.jdt.internal.core.CompilationUnit.openBuffer(CompilationUnit.java:1218)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:114)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:326)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:312)
+	at org.eclipse.jdt.internal.core.Openable.getBuffer(Openable.java:296)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:274)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:218)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer$2.run(JDTLanguageServer.java:305)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 2 org.eclipse.core.resources 4 368 2021-05-03 22:03:33.006
+!MESSAGE File not found: /Users/ocarinaredcoat/Documents/OneDrive - Universidade de Lisboa/IST/Mestrado/2o semestre/SEC/HDLT/Communication/target/generated-sources/protobuf/java/pt/tecnico/sec/hdlt/communication/ServerSignedSignedLocationReportList.java.
+!STACK 0
+java.lang.Exception: File not found: /Users/ocarinaredcoat/Documents/OneDrive - Universidade de Lisboa/IST/Mestrado/2o semestre/SEC/HDLT/Communication/target/generated-sources/protobuf/java/pt/tecnico/sec/hdlt/communication/ServerSignedSignedLocationReportList.java.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:835)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:275)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1212)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1186)
+	at org.eclipse.jdt.internal.core.CompilationUnit.openBuffer(CompilationUnit.java:1218)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:114)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:326)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:312)
+	at org.eclipse.jdt.internal.core.Openable.getBuffer(Openable.java:296)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:274)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:218)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer$2.run(JDTLanguageServer.java:305)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2021-05-03 22:03:33.013
+!MESSAGE Failed to publish diagnostics for file:///Users/ocarinaredcoat/Documents/OneDrive%20-%20Universidade%20de%20Lisboa/IST/Mestrado/2o%20semestre/SEC/HDLT/Communication/target/generated-sources/protobuf/java/pt/tecnico/sec/hdlt/communication/SignedLocationProof.java
+!STACK 1
+Java Model Exception: Core Exception [code 368] File not found: /Users/ocarinaredcoat/Documents/OneDrive - Universidade de Lisboa/IST/Mestrado/2o semestre/SEC/HDLT/Communication/target/generated-sources/protobuf/java/pt/tecnico/sec/hdlt/communication/SignedLocationProof.java.
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1214)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1186)
+	at org.eclipse.jdt.internal.core.CompilationUnit.openBuffer(CompilationUnit.java:1218)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:114)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:326)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:312)
+	at org.eclipse.jdt.internal.core.Openable.getBuffer(Openable.java:296)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:274)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:218)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer$2.run(JDTLanguageServer.java:305)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.eclipse.core.internal.resources.ResourceException: File not found: /Users/ocarinaredcoat/Documents/OneDrive - Universidade de Lisboa/IST/Mestrado/2o semestre/SEC/HDLT/Communication/target/generated-sources/protobuf/java/pt/tecnico/sec/hdlt/communication/SignedLocationProof.java.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:835)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:275)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1212)
+	... 12 more
+Caused by: java.lang.Exception: File not found: /Users/ocarinaredcoat/Documents/OneDrive - Universidade de Lisboa/IST/Mestrado/2o semestre/SEC/HDLT/Communication/target/generated-sources/protobuf/java/pt/tecnico/sec/hdlt/communication/SignedLocationProof.java.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	... 15 more
+Caused by: org.eclipse.core.internal.resources.ResourceException(/Communication/target/generated-sources/protobuf/java/pt/tecnico/sec/hdlt/communication/SignedLocationProof.java)[368]: java.lang.Exception: File not found: /Users/ocarinaredcoat/Documents/OneDrive - Universidade de Lisboa/IST/Mestrado/2o semestre/SEC/HDLT/Communication/target/generated-sources/protobuf/java/pt/tecnico/sec/hdlt/communication/SignedLocationProof.java.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:835)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:275)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1212)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1186)
+	at org.eclipse.jdt.internal.core.CompilationUnit.openBuffer(CompilationUnit.java:1218)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:114)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:326)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:312)
+	at org.eclipse.jdt.internal.core.Openable.getBuffer(Openable.java:296)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:274)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:218)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer$2.run(JDTLanguageServer.java:305)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2021-05-03 22:03:33.013
+!MESSAGE File not found: /Users/ocarinaredcoat/Documents/OneDrive - Universidade de Lisboa/IST/Mestrado/2o semestre/SEC/HDLT/Communication/target/generated-sources/protobuf/java/pt/tecnico/sec/hdlt/communication/SignedLocationProof.java.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/Communication/target/generated-sources/protobuf/java/pt/tecnico/sec/hdlt/communication/SignedLocationProof.java)[368]: java.lang.Exception: File not found: /Users/ocarinaredcoat/Documents/OneDrive - Universidade de Lisboa/IST/Mestrado/2o semestre/SEC/HDLT/Communication/target/generated-sources/protobuf/java/pt/tecnico/sec/hdlt/communication/SignedLocationProof.java.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:835)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:275)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1212)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1186)
+	at org.eclipse.jdt.internal.core.CompilationUnit.openBuffer(CompilationUnit.java:1218)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:114)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:326)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:312)
+	at org.eclipse.jdt.internal.core.Openable.getBuffer(Openable.java:296)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:274)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:218)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer$2.run(JDTLanguageServer.java:305)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 2 org.eclipse.core.resources 4 368 2021-05-03 22:03:33.013
+!MESSAGE File not found: /Users/ocarinaredcoat/Documents/OneDrive - Universidade de Lisboa/IST/Mestrado/2o semestre/SEC/HDLT/Communication/target/generated-sources/protobuf/java/pt/tecnico/sec/hdlt/communication/SignedLocationProof.java.
+!STACK 0
+java.lang.Exception: File not found: /Users/ocarinaredcoat/Documents/OneDrive - Universidade de Lisboa/IST/Mestrado/2o semestre/SEC/HDLT/Communication/target/generated-sources/protobuf/java/pt/tecnico/sec/hdlt/communication/SignedLocationProof.java.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:835)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:275)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1212)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1186)
+	at org.eclipse.jdt.internal.core.CompilationUnit.openBuffer(CompilationUnit.java:1218)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:114)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:326)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:312)
+	at org.eclipse.jdt.internal.core.Openable.getBuffer(Openable.java:296)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:274)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:218)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer$2.run(JDTLanguageServer.java:305)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2021-05-03 22:03:33.028
+!MESSAGE Failed to publish diagnostics for file:///Users/ocarinaredcoat/Documents/OneDrive%20-%20Universidade%20de%20Lisboa/IST/Mestrado/2o%20semestre/SEC/HDLT/Communication/target/generated-sources/protobuf/java/pt/tecnico/sec/hdlt/communication/Position.java
+!STACK 1
+Java Model Exception: Core Exception [code 368] File not found: /Users/ocarinaredcoat/Documents/OneDrive - Universidade de Lisboa/IST/Mestrado/2o semestre/SEC/HDLT/Communication/target/generated-sources/protobuf/java/pt/tecnico/sec/hdlt/communication/Position.java.
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1214)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1186)
+	at org.eclipse.jdt.internal.core.CompilationUnit.openBuffer(CompilationUnit.java:1218)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:114)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:326)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:312)
+	at org.eclipse.jdt.internal.core.Openable.getBuffer(Openable.java:296)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:274)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:218)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer$2.run(JDTLanguageServer.java:305)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.eclipse.core.internal.resources.ResourceException: File not found: /Users/ocarinaredcoat/Documents/OneDrive - Universidade de Lisboa/IST/Mestrado/2o semestre/SEC/HDLT/Communication/target/generated-sources/protobuf/java/pt/tecnico/sec/hdlt/communication/Position.java.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:835)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:275)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1212)
+	... 12 more
+Caused by: java.lang.Exception: File not found: /Users/ocarinaredcoat/Documents/OneDrive - Universidade de Lisboa/IST/Mestrado/2o semestre/SEC/HDLT/Communication/target/generated-sources/protobuf/java/pt/tecnico/sec/hdlt/communication/Position.java.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	... 15 more
+Caused by: org.eclipse.core.internal.resources.ResourceException(/Communication/target/generated-sources/protobuf/java/pt/tecnico/sec/hdlt/communication/Position.java)[368]: java.lang.Exception: File not found: /Users/ocarinaredcoat/Documents/OneDrive - Universidade de Lisboa/IST/Mestrado/2o semestre/SEC/HDLT/Communication/target/generated-sources/protobuf/java/pt/tecnico/sec/hdlt/communication/Position.java.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:835)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:275)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1212)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1186)
+	at org.eclipse.jdt.internal.core.CompilationUnit.openBuffer(CompilationUnit.java:1218)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:114)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:326)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:312)
+	at org.eclipse.jdt.internal.core.Openable.getBuffer(Openable.java:296)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:274)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:218)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer$2.run(JDTLanguageServer.java:305)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2021-05-03 22:03:33.028
+!MESSAGE File not found: /Users/ocarinaredcoat/Documents/OneDrive - Universidade de Lisboa/IST/Mestrado/2o semestre/SEC/HDLT/Communication/target/generated-sources/protobuf/java/pt/tecnico/sec/hdlt/communication/Position.java.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/Communication/target/generated-sources/protobuf/java/pt/tecnico/sec/hdlt/communication/Position.java)[368]: java.lang.Exception: File not found: /Users/ocarinaredcoat/Documents/OneDrive - Universidade de Lisboa/IST/Mestrado/2o semestre/SEC/HDLT/Communication/target/generated-sources/protobuf/java/pt/tecnico/sec/hdlt/communication/Position.java.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:835)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:275)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1212)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1186)
+	at org.eclipse.jdt.internal.core.CompilationUnit.openBuffer(CompilationUnit.java:1218)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:114)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:326)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:312)
+	at org.eclipse.jdt.internal.core.Openable.getBuffer(Openable.java:296)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:274)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:218)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer$2.run(JDTLanguageServer.java:305)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 2 org.eclipse.core.resources 4 368 2021-05-03 22:03:33.028
+!MESSAGE File not found: /Users/ocarinaredcoat/Documents/OneDrive - Universidade de Lisboa/IST/Mestrado/2o semestre/SEC/HDLT/Communication/target/generated-sources/protobuf/java/pt/tecnico/sec/hdlt/communication/Position.java.
+!STACK 0
+java.lang.Exception: File not found: /Users/ocarinaredcoat/Documents/OneDrive - Universidade de Lisboa/IST/Mestrado/2o semestre/SEC/HDLT/Communication/target/generated-sources/protobuf/java/pt/tecnico/sec/hdlt/communication/Position.java.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:835)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:275)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1212)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1186)
+	at org.eclipse.jdt.internal.core.CompilationUnit.openBuffer(CompilationUnit.java:1218)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:114)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:326)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:312)
+	at org.eclipse.jdt.internal.core.Openable.getBuffer(Openable.java:296)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:274)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:218)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer$2.run(JDTLanguageServer.java:305)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2021-05-03 22:03:33.033
+!MESSAGE Failed to publish diagnostics for file:///Users/ocarinaredcoat/Documents/OneDrive%20-%20Universidade%20de%20Lisboa/IST/Mestrado/2o%20semestre/SEC/HDLT/Communication/target/generated-sources/protobuf/java/pt/tecnico/sec/hdlt/communication/ObtainUsersAtLocationRequest.java
+!STACK 1
+Java Model Exception: Core Exception [code 368] File not found: /Users/ocarinaredcoat/Documents/OneDrive - Universidade de Lisboa/IST/Mestrado/2o semestre/SEC/HDLT/Communication/target/generated-sources/protobuf/java/pt/tecnico/sec/hdlt/communication/ObtainUsersAtLocationRequest.java.
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1214)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1186)
+	at org.eclipse.jdt.internal.core.CompilationUnit.openBuffer(CompilationUnit.java:1218)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:114)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:326)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:312)
+	at org.eclipse.jdt.internal.core.Openable.getBuffer(Openable.java:296)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:274)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:218)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer$2.run(JDTLanguageServer.java:305)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.eclipse.core.internal.resources.ResourceException: File not found: /Users/ocarinaredcoat/Documents/OneDrive - Universidade de Lisboa/IST/Mestrado/2o semestre/SEC/HDLT/Communication/target/generated-sources/protobuf/java/pt/tecnico/sec/hdlt/communication/ObtainUsersAtLocationRequest.java.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:835)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:275)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1212)
+	... 12 more
+Caused by: java.lang.Exception: File not found: /Users/ocarinaredcoat/Documents/OneDrive - Universidade de Lisboa/IST/Mestrado/2o semestre/SEC/HDLT/Communication/target/generated-sources/protobuf/java/pt/tecnico/sec/hdlt/communication/ObtainUsersAtLocationRequest.java.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	... 15 more
+Caused by: org.eclipse.core.internal.resources.ResourceException(/Communication/target/generated-sources/protobuf/java/pt/tecnico/sec/hdlt/communication/ObtainUsersAtLocationRequest.java)[368]: java.lang.Exception: File not found: /Users/ocarinaredcoat/Documents/OneDrive - Universidade de Lisboa/IST/Mestrado/2o semestre/SEC/HDLT/Communication/target/generated-sources/protobuf/java/pt/tecnico/sec/hdlt/communication/ObtainUsersAtLocationRequest.java.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:835)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:275)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1212)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1186)
+	at org.eclipse.jdt.internal.core.CompilationUnit.openBuffer(CompilationUnit.java:1218)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:114)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:326)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:312)
+	at org.eclipse.jdt.internal.core.Openable.getBuffer(Openable.java:296)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:274)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:218)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer$2.run(JDTLanguageServer.java:305)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2021-05-03 22:03:33.033
+!MESSAGE File not found: /Users/ocarinaredcoat/Documents/OneDrive - Universidade de Lisboa/IST/Mestrado/2o semestre/SEC/HDLT/Communication/target/generated-sources/protobuf/java/pt/tecnico/sec/hdlt/communication/ObtainUsersAtLocationRequest.java.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/Communication/target/generated-sources/protobuf/java/pt/tecnico/sec/hdlt/communication/ObtainUsersAtLocationRequest.java)[368]: java.lang.Exception: File not found: /Users/ocarinaredcoat/Documents/OneDrive - Universidade de Lisboa/IST/Mestrado/2o semestre/SEC/HDLT/Communication/target/generated-sources/protobuf/java/pt/tecnico/sec/hdlt/communication/ObtainUsersAtLocationRequest.java.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:835)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:275)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1212)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1186)
+	at org.eclipse.jdt.internal.core.CompilationUnit.openBuffer(CompilationUnit.java:1218)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:114)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:326)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:312)
+	at org.eclipse.jdt.internal.core.Openable.getBuffer(Openable.java:296)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:274)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:218)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer$2.run(JDTLanguageServer.java:305)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 2 org.eclipse.core.resources 4 368 2021-05-03 22:03:33.033
+!MESSAGE File not found: /Users/ocarinaredcoat/Documents/OneDrive - Universidade de Lisboa/IST/Mestrado/2o semestre/SEC/HDLT/Communication/target/generated-sources/protobuf/java/pt/tecnico/sec/hdlt/communication/ObtainUsersAtLocationRequest.java.
+!STACK 0
+java.lang.Exception: File not found: /Users/ocarinaredcoat/Documents/OneDrive - Universidade de Lisboa/IST/Mestrado/2o semestre/SEC/HDLT/Communication/target/generated-sources/protobuf/java/pt/tecnico/sec/hdlt/communication/ObtainUsersAtLocationRequest.java.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:835)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:275)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1212)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1186)
+	at org.eclipse.jdt.internal.core.CompilationUnit.openBuffer(CompilationUnit.java:1218)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:114)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:326)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:312)
+	at org.eclipse.jdt.internal.core.Openable.getBuffer(Openable.java:296)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:274)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:218)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer$2.run(JDTLanguageServer.java:305)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-03 22:03:33.035
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-03 22:03:33.037
+!MESSAGE >> watchers registered
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-03 22:04:10.867
+!MESSAGE >> document/didClose

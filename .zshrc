@@ -117,18 +117,24 @@ alias git-clones='cd ~/git-clones'
 
 
 # Miscelaneous Aliases
+alias ls='exa'
 alias vi='vim -u NONE'
 alias fm='vifm'
 alias ll='ls -la'
 alias up='cd ..'
 alias c="reset"
-alias cat=ccat
+alias ncat=cat
+alias ncat=cat
+alias cat=bat
 
 # Aliases to open files in certain apps
 alias vlc="open -a \"VLC\""
+alias quicktime="open -a \"QuickTime Player\""
 alias skim="open -a \"Skim\""
 alias brave="open -a \"Brave Browser\""
 alias finder="open -a \"Finder\""
+alias archi="open -a \"Archi\""
+alias preview="open -a \"Preview\""
 
 alias config='/usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME'
 
@@ -139,7 +145,7 @@ function icat {
 
 #Make an ls after every cd
 function cd {
-    builtin cd "$@" && ls -F
+    builtin cd "$@" && exa -F
 }	
 
 function help {
@@ -160,11 +166,11 @@ function help {
   	echo "		alias etc: cd /etc"
   	echo "		alias config: cd ~/.config"
   	echo "\n - Bookmarks:"
-		echo "		to csf: go to CSF Bookmarket directoy"
-		echo "		to ln: go to LN Bookmarket directoy"
-		echo "		to pp1: go to PP1 Bookmarket directoy"
-		echo "		to ss: go to SSof Bookmarket directoy"
-		echo "		to sirs: go to SIRS Bookmarket directoy"
+		echo "		to cnv: go to CNV Bookmarket directoy"
+		echo "		to sec: go to EC Bookmarket directoy"
+		echo "		to pp2: go to PP2 Bookmarket directoy"
+		echo "		to cpd: go to CPD Bookmarket directoy"
+		echo "		to ams: go to AMS Bookmarket directoy"
 		echo " \n - Applications:"
 		echo "		vlc: open a file with VLC"
 		echo "		skim: open a file with Skim"
@@ -176,38 +182,50 @@ function skhd_help {
 		echo "alt - t : float / unfloat window and center on screen"
 }
 
+function crypto {
+		curl rate.sx/$@
+}
+
 set -o ignoreeof
 
 source /Users/ocarinaredcoat/.oh-my-zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
-export PATH="/Applications/MacPorts/Emacs.app/Contents/MacOS:$PATH"
 
+# Exports
+
+export PATH="/Applications/MacPorts/Emacs.app/Contents/MacOS:$PATH"
 export JAVA_HOME=$(/usr/libexec/java_home -v 11.0.6)
 
 export ZOO_HOME=/Users/ocarinaredcoat/apache-zookeeper-3.6.0-bin
 export PATH=$PATH:$ZOO_HOME/bin
 
 #[[ $TERM != "screen" ]] && exec tmux
-export PATH="/usr/local/sbin:$PATH"
+#export PATH="/usr/local/sbin:$PATH"
+#export TERM=xterm-256color
 
 export PANEL_FIFO=/tmp/panel-fifo
 export PATH=$PATH:/home/kira/Documents/panel
 
-
-
-#Locale export
 export LANG=en_GB.UTF-8
 export LC_MESSAGES="C"
 #export LANG=C
 
-#[[ $TERM != "screen" ]] && exec tmux
-## ~/.zshrc
+export MANPAGER="sh -c 'col -bx | bat -l man -p'"
+
 
 eval "$(starship init zsh)"
 
 
 # Fortune pipe to satanic cowsay
-fortune -a drugs | cowsay -f satanic
+#fortune -a drugs | cowsay -f satanic
 
 # Sources bookmark tool
-source .bourne-apparish
+source ~/.bourne-apparish
+export PATH="/usr/local/opt/openjdk/bin:$PATH"
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+[ -f "/Users/ocarinaredcoat/.ghcup/env" ] && source "/Users/ocarinaredcoat/.ghcup/env" # ghcup-env
+export PATH="/usr/local/bin:$PATH"
+
+# export Flutter for CCU
+export PATH="$PATH:/Users/ocarinaredcoat/flutter/bin"
